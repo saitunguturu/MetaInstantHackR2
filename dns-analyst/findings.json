@@ -1,0 +1,1675 @@
+{
+ "team_id": "10",
+ "findings": [
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-12T16:09:20.731Z",
+   "host": "WS-0086",
+   "user": "henry3",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: evil-c2-01.darkrelay.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-13T03:12:02.619Z",
+   "host": "WS-0157",
+   "user": "alice6",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: evil-c2-01.darkrelay.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-15T10:59:15.350Z",
+   "host": "WS-2043",
+   "user": "omar78",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: creds-phish.securelogin.xyz (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-16T04:59:23.220Z",
+   "host": "WS-2267",
+   "user": "erin87",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: creds-phish.securelogin.xyz (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-16T10:16:23.529Z",
+   "host": "WS-3372",
+   "user": "rachel129",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: evil-c2-01.darkrelay.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-14T01:14:15.798Z",
+   "host": "WS-4433",
+   "user": "mia170",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: creds-phish.securelogin.xyz (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-15T15:02:01.313Z",
+   "host": "WS-4512",
+   "user": "nina173",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: evil-c2-01.darkrelay.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-15T17:54:39.655Z",
+   "host": "WS-5585",
+   "user": "uma214",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: malware-drop.badhosting.top (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-15T09:20:05.985Z",
+   "host": "WS-6097",
+   "user": "mia234",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: malware-drop.badhosting.top (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-14T21:00:58.293Z",
+   "host": "WS-6358",
+   "user": "nina244",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: malware-drop.badhosting.top (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-15T06:57:22.219Z",
+   "host": "WS-7126",
+   "user": "bob274",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: creds-phish.securelogin.xyz (1 lookups)"
+   ]
+  },
+  {
+   "category": "Known-bad indicators",
+   "timestamp": "2026-10-13T23:44:02.676Z",
+   "host": "WS-9881",
+   "user": "alice380",
+   "process": "chrome",
+   "evidence": [
+    "IOC domain: malware-drop.badhosting.top (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-14T07:43:01.246Z",
+   "host": "WS-0720",
+   "user": "rachel27",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: bearcorp-helpdesk.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-16T12:02:02.740Z",
+   "host": "WS-0844",
+   "user": "leo32",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: bear-corp.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-15T19:25:48.020Z",
+   "host": "WS-2663",
+   "user": "karen102",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: bearcorp-support.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-15T03:14:55.384Z",
+   "host": "WS-3498",
+   "user": "nina134",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: bearc0rp.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-14T08:46:19.124Z",
+   "host": "WS-3710",
+   "user": "rachel142",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: xn--beacorp-x4a.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-12T15:02:55.316Z",
+   "host": "WS-6656",
+   "user": "zack255",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: bearcorp-vpn.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-14T12:47:03.288Z",
+   "host": "WS-6960",
+   "user": "rachel267",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: b3arcorp.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-15T03:31:47.526Z",
+   "host": "WS-7766",
+   "user": "rachel298",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: bearcorp-login.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-14T01:49:32.880Z",
+   "host": "WS-8859",
+   "user": "sam340",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: mybearcorp.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Deceptive domains",
+   "timestamp": "2026-10-16T05:19:05.265Z",
+   "host": "WS-9882",
+   "user": "bob380",
+   "process": "chrome",
+   "evidence": [
+    "lookalike domain: xn--bearcrp-9ya.com (1 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T10:41:05.437Z",
+   "host": "WS-0419",
+   "user": "carol16",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: h+cw+sk0ehmyi2vnc9afxqw7chzipm.out.dns-telemetry.net (192 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T13:44:46.783Z",
+   "host": "WS-0810",
+   "user": "dave31",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: p7tvlj7ed6g+oycetr=xmhd1j3soaf.out.dns-telemetry.net (219 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T05:33:47.477Z",
+   "host": "WS-1167",
+   "user": "wendy44",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: n3awfcafs7o03++y7bbvbszn+orhtr.out.dns-telemetry.net (155 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-15T21:55:44.985Z",
+   "host": "WS-1543",
+   "user": "irene59",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: wei4yavltmnxmp0xn1sk7d=+eyrzqm.out.dns-telemetry.net (233 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T01:49:11.196Z",
+   "host": "WS-2325",
+   "user": "karen89",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: gwhot5wuyekzriftd73z=x/ggzr4ov.out.dns-telemetry.net (165 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T06:39:56.881Z",
+   "host": "WS-3131",
+   "user": "karen120",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: r=b8fw4/4yjbobwhdeywdh=ov1wgcu.out.dns-telemetry.net (185 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T09:07:12.840Z",
+   "host": "WS-3208",
+   "user": "jack123",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: 7fasayud/tmi8wgw6qzyouhvg4jzug.out.dns-telemetry.net (197 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T01:15:20.359Z",
+   "host": "WS-3655",
+   "user": "omar140",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: ikbyabebhwaj3dchadfggfz9z0y//l.out.dns-telemetry.net (154 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T02:39:23.639Z",
+   "host": "WS-4907",
+   "user": "sam188",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: /n=1b1be3=e04ucq9texcx51fztwjp.out.dns-telemetry.net (195 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T21:55:33.331Z",
+   "host": "WS-5387",
+   "user": "erin207",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: roto6dzwtag1wmaagemfl2qxtn4ot/.out.dns-telemetry.net (169 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T19:33:22.499Z",
+   "host": "WS-5577",
+   "user": "mia214",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: tsjpmgb1hteby08xdg5hsqra97yygd.out.dns-telemetry.net (154 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T02:18:38.565Z",
+   "host": "WS-7899",
+   "user": "uma303",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: jgg+1hlpclteirv2zb1lyh1yzklavp.out.dns-telemetry.net (158 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T06:46:15.631Z",
+   "host": "WS-8278",
+   "user": "jack318",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: 2a37/efyreozkoen=g2aaaw0nt3jhn.out.dns-telemetry.net (214 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-12T20:08:02.071Z",
+   "host": "WS-8484",
+   "user": "henry326",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: iw+/optpmsdr8lhhqshjtk0+xkol6d.out.dns-telemetry.net (248 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T20:44:57.025Z",
+   "host": "WS-9052",
+   "user": "dave348",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: tetg4ezlwfqm=123gv+8wbdcwgi=fd.out.dns-telemetry.net (183 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T05:59:46.968Z",
+   "host": "WS-1473",
+   "user": "quinn56",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: zvtcfot2eqpaghshgnkljp9u.v6.tunnel-six.net (148 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-15T07:23:34.585Z",
+   "host": "WS-4482",
+   "user": "jack172",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: jmhgk/wc4frzisv86mrxno01.v6.tunnel-six.net (160 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T20:40:47.443Z",
+   "host": "WS-6678",
+   "user": "victor256",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: vqq0yazl2krgamepxnemysqw.v6.tunnel-six.net (149 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T22:43:35.835Z",
+   "host": "WS-7013",
+   "user": "sam269",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: ao1u8tecimdbeceufx2uhteg.v6.tunnel-six.net (114 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T06:53:54.992Z",
+   "host": "WS-7189",
+   "user": "mia276",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: 8w19u=mdw/mwmf6ptger/xcl.v6.tunnel-six.net (156 lookups)"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T16:41:07.998Z",
+   "host": "WS-8624",
+   "user": "rachel331",
+   "process": "sync_helper",
+   "evidence": [
+    "DNS exfil: 9mg5kfzdamvfgk0fofsxqdcd.v6.tunnel-six.net (155 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T20:26:50.532Z",
+   "host": "WS-0304",
+   "user": "rachel11",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy0wmza0o3vzzxi9cmfjagvsmte.data.exfil-dns-tunnel.net (85 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T07:16:09.044Z",
+   "host": "WS-1891",
+   "user": "sam72",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy0xodkxo3vzzxi9c2ftnzi.data.exfil-dns-tunnel.net (83 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T07:18:34.480Z",
+   "host": "WS-2482",
+   "user": "leo95",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy0yndgyo3vzzxi9bgvvotu.data.exfil-dns-tunnel.net (82 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T08:27:31.767Z",
+   "host": "WS-2979",
+   "user": "omar114",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy0yotc5o3vzzxi9b21hcjexna.data.exfil-dns-tunnel.net (67 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T08:22:29.463Z",
+   "host": "WS-4325",
+   "user": "irene166",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy00mzi1o3vzzxi9axjlbmuxnjy.data.exfil-dns-tunnel.net (87 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T08:31:36.562Z",
+   "host": "WS-4602",
+   "user": "zack176",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy00njayo3vzzxi9emfjaze3ng.data.exfil-dns-tunnel.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T23:33:59.419Z",
+   "host": "WS-4967",
+   "user": "alice191",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy00oty3o3vzzxi9ywxpy2uxote.data.exfil-dns-tunnel.net (86 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T17:00:16.128Z",
+   "host": "WS-5094",
+   "user": "xavier195",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy01mdk0o3vzzxi9egf2awvymtk1.data.exfil-dns-tunnel.net (76 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T20:33:04.143Z",
+   "host": "WS-8424",
+   "user": "zack323",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy04ndi0o3vzzxi9emfjazmymw.data.exfil-dns-tunnel.net (561 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T14:44:22.835Z",
+   "host": "WS-9038",
+   "user": "paula347",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy05mdm4o3vzzxi9cgf1bgezndc.data.exfil-dns-tunnel.net (69 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T14:43:46.107Z",
+   "host": "WS-9767",
+   "user": "quinn375",
+   "process": "sync_helper",
+   "evidence": [
+    "long A-record names: 0000.ag9zdd1xuy05nzy3o3vzzxi9cxvpbm4znzu.data.exfil-dns-tunnel.net (67 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T21:58:35.185Z",
+   "host": "WS-0553",
+   "user": "grace21",
+   "process": "sync_helper",
+   "evidence": [
+    "repeated TXT w/ encoded answer: ping.dns-telemetry.net (2 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T11:08:39.875Z",
+   "host": "WS-0679",
+   "user": "carol26",
+   "process": "sync_helper",
+   "evidence": [
+    "repeated TXT w/ encoded answer: ping.dns-telemetry.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T10:10:57.488Z",
+   "host": "WS-4030",
+   "user": "zack154",
+   "process": "sync_helper",
+   "evidence": [
+    "repeated TXT w/ encoded answer: ping.dns-telemetry.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T09:44:00.306Z",
+   "host": "WS-6900",
+   "user": "jack265",
+   "process": "sync_helper",
+   "evidence": [
+    "repeated TXT w/ encoded answer: ping.dns-telemetry.net (2 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T07:52:24.028Z",
+   "host": "WS-0892",
+   "user": "henry34",
+   "process": "sync_helper",
+   "evidence": [
+    "oversized DNS answers: f000.dl.biganswer-cdn.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T15:09:40.809Z",
+   "host": "WS-7099",
+   "user": "alice273",
+   "process": "sync_helper",
+   "evidence": [
+    "oversized DNS answers: f000.dl.biganswer-cdn.net (128 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T09:37:03.940Z",
+   "host": "LAB-03",
+   "user": "labuser8",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: hwj7m8t1z0.xyz (428 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-12T10:01:21.432Z",
+   "host": "LAB-06",
+   "user": "labuser5",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: iuaw6ray67oonag.xyz (70 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T06:17:14.464Z",
+   "host": "WS-1077",
+   "user": "karen41",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: uektajbvqrw.info (40 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T23:17:32.005Z",
+   "host": "WS-2613",
+   "user": "mia100",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: yurt8mofoubpgy.xyz (43 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T17:08:59.634Z",
+   "host": "WS-2698",
+   "user": "tina103",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: k8r690iynmigz.xyz (57 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T01:16:38.425Z",
+   "host": "WS-3016",
+   "user": "zack115",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: l9k4v7cl5a2.xyz (72 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T14:24:16.513Z",
+   "host": "WS-3926",
+   "user": "zack150",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: zemurs3ui6.top (46 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-16T01:08:54.882Z",
+   "host": "WS-3930",
+   "user": "dave151",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: union-correct8.lat (143 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T19:43:32.566Z",
+   "host": "WS-4100",
+   "user": "rachel157",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: river-harbor38.lat (167 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T13:08:14.331Z",
+   "host": "WS-4136",
+   "user": "bob159",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: pilot-window85.com (275 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T21:42:29.557Z",
+   "host": "WS-4664",
+   "user": "jack179",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: lxjewokw4ll.xyz (45 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T11:32:10.854Z",
+   "host": "WS-4697",
+   "user": "quinn180",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: wmoron64k0.xyz (49 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T02:44:53.135Z",
+   "host": "WS-4804",
+   "user": "tina184",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: cncxh51x00vqjas.top (40 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T05:05:08.312Z",
+   "host": "WS-4885",
+   "user": "wendy187",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: hkrbd6m53v7m4ju.info (65 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T04:48:31.801Z",
+   "host": "WS-5234",
+   "user": "henry201",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: tiger-battery18.com (300 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T17:16:31.692Z",
+   "host": "WS-6594",
+   "user": "paula253",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: 7zkiizkzgtebj.xyz (28 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T01:03:46.074Z",
+   "host": "WS-6620",
+   "user": "paula254",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: canyon-silver72.lat (159 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T14:55:01.323Z",
+   "host": "WS-6963",
+   "user": "uma267",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: v128ywb61i8yhwju.top (36 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T23:37:40.165Z",
+   "host": "WS-7057",
+   "user": "karen271",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: 65fqwlvkkk72b6zk.top (65 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T17:43:16.231Z",
+   "host": "WS-7968",
+   "user": "leo306",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: valley-staple15.com (291 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-12T19:47:16.102Z",
+   "host": "WS-8207",
+   "user": "quinn315",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: d9d023acr2.xyz (63 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-12T18:39:04.611Z",
+   "host": "WS-8616",
+   "user": "jack331",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: meadow-winter98.lat (194 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-16T10:28:36.223Z",
+   "host": "WS-8788",
+   "user": "zack337",
+   "process": "doc_reader",
+   "evidence": [
+    "NXDOMAIN made-up names: quartz-valley27.com (207 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T22:20:09.373Z",
+   "host": "WS-5375",
+   "user": "sam206",
+   "process": "net_scan",
+   "evidence": [
+    "subdomain guessing: blog.victim-corp.net (62 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T09:55:06.619Z",
+   "host": "WS-6130",
+   "user": "tina235",
+   "process": "net_scan",
+   "evidence": [
+    "subdomain guessing: shop.bearcorp.com (48 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T09:25:59.439Z",
+   "host": "WS-8132",
+   "user": "tina312",
+   "process": "net_scan",
+   "evidence": [
+    "subdomain guessing: vpn.bearcorp.com (32 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-16T06:10:10.012Z",
+   "host": "WS-9416",
+   "user": "dave362",
+   "process": "net_scan",
+   "evidence": [
+    "subdomain guessing: portal.bearcorp.com (125 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T21:34:00.890Z",
+   "host": "WS-0591",
+   "user": "sam22",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: 5d9i8zbn0b.site (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T08:51:08.537Z",
+   "host": "WS-1902",
+   "user": "dave73",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: symounl2c9wn.club (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T07:06:52.089Z",
+   "host": "WS-2065",
+   "user": "karen79",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: 5000wnzyt9dv.store (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T02:07:08.481Z",
+   "host": "WS-2193",
+   "user": "irene84",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: 9xqr6e5h.store (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T14:55:56.561Z",
+   "host": "WS-3324",
+   "user": "victor127",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: w2vg6966w.store (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T10:30:41.133Z",
+   "host": "WS-5071",
+   "user": "alice195",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: 3m26vprc.site (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T06:34:31.614Z",
+   "host": "WS-5298",
+   "user": "tina203",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: g4tllc6kx25.site (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T16:50:16.831Z",
+   "host": "WS-6706",
+   "user": "xavier257",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: 30sga6xyjt.club (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:49:32.151Z",
+   "host": "WS-8677",
+   "user": "sam333",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: rv404rx70q.club (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T20:53:25.639Z",
+   "host": "WS-8752",
+   "user": "paula336",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: ld7gtwvfls.store (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T05:01:17.079Z",
+   "host": "WS-9415",
+   "user": "carol362",
+   "process": "chrome",
+   "evidence": [
+    "burst of new resolving domains: 2wcxbr18tvj.store (60 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T18:03:34.357Z",
+   "host": "WS-6436",
+   "user": "nina247",
+   "process": "chrome",
+   "evidence": [
+    "fast-flux domain: cdn.media-stream-flux.net (3 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T04:19:40.133Z",
+   "host": "WS-9390",
+   "user": "dave361",
+   "process": "chrome",
+   "evidence": [
+    "fast-flux domain: cdn.media-stream-flux.net (3 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:31:51.025Z",
+   "host": "WS-1082",
+   "user": "paula41",
+   "process": "chrome",
+   "evidence": [
+    "shares IP with IOC domain: dl.badhosting.top (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T16:09:01.452Z",
+   "host": "WS-6303",
+   "user": "karen242",
+   "process": "chrome",
+   "evidence": [
+    "shares IP with IOC domain: img.darkrelay.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T18:28:08.717Z",
+   "host": "WS-7213",
+   "user": "karen277",
+   "process": "chrome",
+   "evidence": [
+    "shares IP with IOC domain: static.badhosting.top (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T16:21:50.609Z",
+   "host": "WS-7872",
+   "user": "tina302",
+   "process": "chrome",
+   "evidence": [
+    "shares IP with IOC domain: cdn-assets-02.darkrelay.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T10:04:57.139Z",
+   "host": "WS-0149",
+   "user": "sam5",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.timesheet-cloud.net (31 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T03:35:10.120Z",
+   "host": "WS-0347",
+   "user": "irene13",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.offhours-backup.net (12 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T16:01:47.078Z",
+   "host": "WS-0365",
+   "user": "alice14",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: tick.watchdog-svc.net (40 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T09:36:50.330Z",
+   "host": "WS-0409",
+   "user": "sam15",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: api.devicemetrics.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T09:08:32.705Z",
+   "host": "WS-0488",
+   "user": "tina18",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T09:17:17.078Z",
+   "host": "WS-1391",
+   "user": "mia53",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (63 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:01:11.239Z",
+   "host": "WS-1438",
+   "user": "henry55",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.shadowmetrics.net (1 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T01:05:48.769Z",
+   "host": "WS-1795",
+   "user": "alice69",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.offhours-backup.net (19 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T01:05:57.875Z",
+   "host": "WS-2074",
+   "user": "tina79",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (114 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T04:32:52.784Z",
+   "host": "WS-2449",
+   "user": "erin94",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (110 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T09:08:06.612Z",
+   "host": "WS-2470",
+   "user": "zack94",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.statuscheck-svc.net (45 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T02:04:23.378Z",
+   "host": "WS-2667",
+   "user": "omar102",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.offhours-backup.net (8 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T09:16:46.110Z",
+   "host": "WS-2882",
+   "user": "victor110",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: api.devicemetrics.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T09:51:08.701Z",
+   "host": "WS-2896",
+   "user": "jack111",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (63 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T10:03:31.152Z",
+   "host": "WS-2999",
+   "user": "irene115",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: pulse.healthmon-svc.net (30 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T00:33:02.964Z",
+   "host": "WS-3052",
+   "user": "jack117",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.nightly-metrics.net (21 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T14:08:43.117Z",
+   "host": "WS-3186",
+   "user": "nina122",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.shiftplanner-cloud.net (32 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T09:51:06.491Z",
+   "host": "WS-3505",
+   "user": "uma134",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: api.devicemetrics.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T03:07:59.919Z",
+   "host": "WS-3693",
+   "user": "alice142",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.offhours-backup.net (17 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T14:07:43.907Z",
+   "host": "WS-3827",
+   "user": "erin147",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: pulse.healthmon-svc.net (29 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T18:03:40.202Z",
+   "host": "WS-4104",
+   "user": "victor157",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: pulse.healthmon-svc.net (33 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T02:01:46.066Z",
+   "host": "WS-4198",
+   "user": "leo161",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.nightly-metrics.net (20 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T09:05:15.527Z",
+   "host": "WS-4265",
+   "user": "alice164",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (63 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T17:00:23.156Z",
+   "host": "WS-4292",
+   "user": "bob165",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: tick.watchdog-svc.net (34 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T16:58:24.365Z",
+   "host": "WS-5182",
+   "user": "henry199",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.shadowmetrics.net (2 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T15:00:44.035Z",
+   "host": "WS-5356",
+   "user": "zack205",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: pulse.healthmon-svc.net (27 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T22:03:13.984Z",
+   "host": "WS-5500",
+   "user": "nina211",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (94 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T09:16:33.365Z",
+   "host": "WS-5634",
+   "user": "rachel216",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (72 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T09:48:47.059Z",
+   "host": "WS-5870",
+   "user": "tina225",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T11:38:36.440Z",
+   "host": "WS-5904",
+   "user": "bob227",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (103 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T08:00:06.476Z",
+   "host": "WS-6039",
+   "user": "grace232",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.statuscheck-svc.net (36 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T14:05:10.437Z",
+   "host": "WS-6112",
+   "user": "bob235",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: tick.watchdog-svc.net (21 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T08:03:04.149Z",
+   "host": "WS-6203",
+   "user": "omar238",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (108 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T09:37:11.414Z",
+   "host": "WS-6337",
+   "user": "sam243",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (63 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T10:00:34.244Z",
+   "host": "WS-6608",
+   "user": "dave254",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.timesheet-cloud.net (32 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T00:31:36.117Z",
+   "host": "WS-6908",
+   "user": "rachel265",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.nightly-metrics.net (5 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T12:48:36.242Z",
+   "host": "WS-7525",
+   "user": "karen289",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.shadowmetrics.net (2 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T09:06:02.246Z",
+   "host": "WS-7978",
+   "user": "victor306",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: api.devicemetrics.net (72 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T18:08:29.654Z",
+   "host": "WS-8589",
+   "user": "irene330",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: tick.watchdog-svc.net (31 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T18:34:31.837Z",
+   "host": "WS-8659",
+   "user": "alice333",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (98 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T01:36:57.205Z",
+   "host": "WS-9153",
+   "user": "alice352",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.nightly-metrics.net (14 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T15:04:41.805Z",
+   "host": "WS-9200",
+   "user": "victor353",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.shiftplanner-cloud.net (26 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T15:02:50.554Z",
+   "host": "WS-9245",
+   "user": "omar355",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (101 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T09:37:36.971Z",
+   "host": "WS-9292",
+   "user": "jack357",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.fleetmetrics.net (73 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T10:08:31.261Z",
+   "host": "WS-9536",
+   "user": "tina366",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.timesheet-cloud.net (23 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T11:56:37.201Z",
+   "host": "WS-9650",
+   "user": "dave371",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: sync.shadowmetrics.net (2 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T11:06:15.257Z",
+   "host": "WS-9686",
+   "user": "nina372",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.statuscheck-svc.net (31 lookups)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T01:36:33.887Z",
+   "host": "WS-9720",
+   "user": "victor373",
+   "process": "sync_helper",
+   "evidence": [
+    "periodic beacon: heartbeat.fleetwatch.net (90 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T10:14:47.145Z",
+   "host": "WS-0300",
+   "user": "nina11",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: git-22.metrics.partner-analytics.net (11 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T10:00:24.922Z",
+   "host": "WS-0548",
+   "user": "bob21",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: blog-98.metrics.partner-analytics.net (10 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T10:06:02.568Z",
+   "host": "WS-3474",
+   "user": "paula133",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: crm.metrics.partner-analytics.net (9 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T11:08:46.054Z",
+   "host": "WS-3629",
+   "user": "omar139",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: git.telemetry.partner-stats.net (7 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T15:07:50.456Z",
+   "host": "WS-3818",
+   "user": "victor146",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: ci-99.assets.delivery-metrics.net (8 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T15:14:26.854Z",
+   "host": "WS-4498",
+   "user": "zack172",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: shop-11.assets.delivery-metrics.net (9 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T11:14:27.975Z",
+   "host": "WS-5136",
+   "user": "nina197",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: git-13.telemetry.partner-stats.net (8 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T11:05:19.973Z",
+   "host": "WS-5635",
+   "user": "sam216",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: git.telemetry.partner-stats.net (15 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T15:10:58.942Z",
+   "host": "WS-6034",
+   "user": "bob232",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: erp.assets.delivery-metrics.net (8 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T15:12:04.614Z",
+   "host": "WS-6307",
+   "user": "omar242",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: api.assets.delivery-metrics.net (13 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T10:13:47.034Z",
+   "host": "WS-6326",
+   "user": "henry243",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: wiki-16.metrics.partner-analytics.net (9 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T15:12:47.173Z",
+   "host": "WS-6925",
+   "user": "irene266",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: dev.assets.delivery-metrics.net (15 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T11:08:11.431Z",
+   "host": "WS-8489",
+   "user": "mia326",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: mail-76.telemetry.partner-stats.net (15 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T11:11:28.182Z",
+   "host": "WS-8564",
+   "user": "jack329",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: cdn.telemetry.partner-stats.net (14 lookups)"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T10:05:13.731Z",
+   "host": "WS-9334",
+   "user": "zack358",
+   "process": "net_scan",
+   "evidence": [
+    "distributed subdomain sweep: ci.metrics.partner-analytics.net (7 lookups)"
+   ]
+  }
+ ]
+}
