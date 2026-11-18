@@ -1,0 +1,12 @@
+{
+  "team_id": "your-team-id",
+  "findings": [
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-14T09:00:00.000Z",
+      "host": "WS-0421",
+      "user": "user123",
+      "process": "browser"
+    }
+  ]
+}

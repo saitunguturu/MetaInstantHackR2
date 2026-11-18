@@ -1,0 +1,880 @@
+{
+  "team_id": 10,
+  "findings": [
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-12T12:18:44.757Z",
+      "host": "WS-2983",
+      "user": "sam114",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-12T13:00:56.965Z",
+      "host": "WS-8738",
+      "user": "bob336",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-12T13:27:10.430Z",
+      "host": "WS-6587",
+      "user": "irene253",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-12T13:52:16.737Z",
+      "host": "WS-0734",
+      "user": "frank28",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-12T14:22:31.608Z",
+      "host": "WS-3346",
+      "user": "rachel128",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-12T15:09:44.979Z",
+      "host": "WS-5038",
+      "user": "tina193",
+      "process": "bash"
+    },
+    {
+      "category": "Command and control",
+      "timestamp": "2026-10-12T15:11:52.441Z",
+      "host": "WS-7976",
+      "user": "tina306",
+      "process": "ping"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-12T16:36:50.362Z",
+      "host": "WS-0512",
+      "user": "rachel19",
+      "process": "updater"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-12T17:00:11.823Z",
+      "host": "WS-9317",
+      "user": "none",
+      "process": "chrome"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-12T18:44:43.712Z",
+      "host": "WS-7793",
+      "user": "sam299",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-12T20:09:18.456Z",
+      "host": "WS-5616",
+      "user": "zack215",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-12T21:45:15.900Z",
+      "host": "WS-5891",
+      "user": "omar226",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-12T22:34:37.776Z",
+      "host": "WS-9604",
+      "user": "jack369",
+      "process": "chrome"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T00:24:10.030Z",
+      "host": "WS-6503",
+      "user": "carol250",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T00:28:33.991Z",
+      "host": "WS-2768",
+      "user": "leo106",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T00:43:00.845Z",
+      "host": "WS-9323",
+      "user": "omar358",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T01:57:13.931Z",
+      "host": "WS-3764",
+      "user": "tina144",
+      "process": "chrome"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T02:03:16.478Z",
+      "host": "WS-4747",
+      "user": "none",
+      "process": "chrome"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T03:58:31.387Z",
+      "host": "WS-9093",
+      "user": "sam349",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T04:25:27.525Z",
+      "host": "WS-1244",
+      "user": "victor47",
+      "process": "chrome"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T04:30:38.015Z",
+      "host": "WS-1545",
+      "user": "karen59",
+      "process": "bash"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-13T04:31:48.050Z",
+      "host": "WS-9637",
+      "user": "quinn370",
+      "process": "masscan"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T05:31:05.985Z",
+      "host": "WS-3295",
+      "user": "sam126",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T06:29:56.201Z",
+      "host": "WS-4914",
+      "user": "zack188",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T06:36:19.206Z",
+      "host": "WS-8892",
+      "user": "zack341",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T07:38:33.173Z",
+      "host": "WS-4190",
+      "user": "dave161",
+      "process": "updater"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T10:31:36.820Z",
+      "host": "LAB-02",
+      "user": "labuser4",
+      "process": "chrome"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T10:36:21.694Z",
+      "host": "WS-8703",
+      "user": "sam334",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T11:41:44.638Z",
+      "host": "WS-1532",
+      "user": "xavier58",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T14:29:23.758Z",
+      "host": "WS-7203",
+      "user": "alice277",
+      "process": "updater"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T14:32:51.097Z",
+      "host": "WS-7986",
+      "user": "dave307",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T15:48:09.910Z",
+      "host": "WS-5812",
+      "user": "nina223",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T15:56:17.211Z",
+      "host": "WS-9503",
+      "user": "mia365",
+      "process": "firefox"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T17:13:21.755Z",
+      "host": "WS-6786",
+      "user": "zack260",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-13T17:54:08.645Z",
+      "host": "WS-7666",
+      "user": "victor294",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-13T18:34:59.397Z",
+      "host": "WS-4680",
+      "user": "zack179",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T19:00:44.625Z",
+      "host": "WS-6726",
+      "user": "rachel258",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T19:45:54.951Z",
+      "host": "WS-2677",
+      "user": "yvonne102",
+      "process": "bash"
+    },
+    {
+      "category": "Command and control",
+      "timestamp": "2026-10-13T19:53:12.857Z",
+      "host": "WS-7972",
+      "user": "paula306",
+      "process": "ping"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-13T22:28:27.879Z",
+      "host": "WS-1880",
+      "user": "henry72",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T02:39:45.602Z",
+      "host": "WS-2938",
+      "user": "zack112",
+      "process": "chrome"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T03:57:24.822Z",
+      "host": "WS-9398",
+      "user": "leo361",
+      "process": "chrome"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-14T06:57:05.171Z",
+      "host": "WS-2504",
+      "user": "henry96",
+      "process": "masscan"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-14T07:59:42.291Z",
+      "host": "WS-3473",
+      "user": "omar133",
+      "process": "bash"
+    },
+    {
+      "category": "Command and control",
+      "timestamp": "2026-10-14T08:04:58.430Z",
+      "host": "WS-3224",
+      "user": "zack123",
+      "process": "ping"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T08:46:47.568Z",
+      "host": "WS-3971",
+      "user": "sam152",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T08:57:17.564Z",
+      "host": "WS-1315",
+      "user": "omar50",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T09:18:38.312Z",
+      "host": "WS-6342",
+      "user": "xavier243",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T10:55:01.141Z",
+      "host": "WS-6789",
+      "user": "carol261",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T12:37:05.066Z",
+      "host": "WS-4533",
+      "user": "irene174",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T13:08:36.708Z",
+      "host": "LAB-07",
+      "user": "labuser4",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T13:48:27.968Z",
+      "host": "WS-1434",
+      "user": "dave55",
+      "process": "bash"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-14T14:01:30.728Z",
+      "host": "WS-5615",
+      "user": "yvonne215",
+      "process": "masscan"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T14:39:32.045Z",
+      "host": "WS-1922",
+      "user": "xavier73",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T16:31:36.311Z",
+      "host": "WS-4064",
+      "user": "henry156",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T16:33:23.290Z",
+      "host": "WS-3730",
+      "user": "leo143",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-14T17:39:55.905Z",
+      "host": "WS-8602",
+      "user": "victor330",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T18:02:59.410Z",
+      "host": "WS-9358",
+      "user": "xavier359",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T18:11:41.811Z",
+      "host": "WS-9337",
+      "user": "carol359",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T18:45:57.799Z",
+      "host": "WS-8486",
+      "user": "jack326",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T20:55:06.962Z",
+      "host": "WS-0469",
+      "user": "alice18",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T21:58:12.657Z",
+      "host": "WS-2251",
+      "user": "omar86",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T22:24:56.144Z",
+      "host": "WS-7788",
+      "user": "nina299",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T22:51:35.238Z",
+      "host": "WS-1294",
+      "user": "tina49",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T23:01:11.772Z",
+      "host": "WS-4229",
+      "user": "quinn162",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-14T23:24:39.217Z",
+      "host": "WS-5806",
+      "user": "henry223",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T23:52:33.152Z",
+      "host": "WS-2385",
+      "user": "sam91",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-14T23:56:35.225Z",
+      "host": "WS-5746",
+      "user": "zack220",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T01:43:42.581Z",
+      "host": "WS-1194",
+      "user": "xavier45",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T04:44:42.081Z",
+      "host": "WS-1091",
+      "user": "yvonne41",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T07:19:03.077Z",
+      "host": "WS-7990",
+      "user": "henry307",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T07:35:28.534Z",
+      "host": "WS-3906",
+      "user": "frank150",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T07:59:52.179Z",
+      "host": "WS-8691",
+      "user": "grace334",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:46:12.587Z",
+      "host": "WS-5093",
+      "user": "wendy195",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T10:55:26.758Z",
+      "host": "WS-4537",
+      "user": "mia174",
+      "process": "bash"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-15T11:06:48.847Z",
+      "host": "WS-7178",
+      "user": "bob276",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T11:45:11.241Z",
+      "host": "WS-0547",
+      "user": "alice21",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T11:52:06.731Z",
+      "host": "WS-2851",
+      "user": "quinn109",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T12:09:13.286Z",
+      "host": "WS-8145",
+      "user": "grace313",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T13:47:42.026Z",
+      "host": "WS-3032",
+      "user": "paula116",
+      "process": "firefox"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T14:05:03.745Z",
+      "host": "WS-8874",
+      "user": "henry341",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T14:26:54.984Z",
+      "host": "WS-3055",
+      "user": "mia117",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T14:59:25.679Z",
+      "host": "WS-8350",
+      "user": "dave321",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T15:01:55.609Z",
+      "host": "WS-5465",
+      "user": "erin210",
+      "process": "bash"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-15T15:09:25.160Z",
+      "host": "WS-6858",
+      "user": "tina263",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T15:32:53.313Z",
+      "host": "WS-0711",
+      "user": "irene27",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T15:57:19.739Z",
+      "host": "WS-3520",
+      "user": "jack135",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T16:07:27.393Z",
+      "host": "WS-7716",
+      "user": "tina296",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T16:50:32.183Z",
+      "host": "WS-4010",
+      "user": "frank154",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T18:29:51.263Z",
+      "host": "WS-5118",
+      "user": "victor196",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T18:31:51.275Z",
+      "host": "WS-8119",
+      "user": "grace312",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T19:07:41.503Z",
+      "host": "WS-2244",
+      "user": "henry86",
+      "process": "sysupdate"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T19:53:44.627Z",
+      "host": "WS-3362",
+      "user": "henry129",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T20:06:48.102Z",
+      "host": "WS-2565",
+      "user": "quinn98",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T20:36:45.536Z",
+      "host": "WS-1067",
+      "user": "alice41",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T20:47:54.895Z",
+      "host": "WS-9152",
+      "user": "zack351",
+      "process": "chrome"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T21:48:40.542Z",
+      "host": "WS-3688",
+      "user": "victor141",
+      "process": "chrome"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-15T21:58:59.165Z",
+      "host": "WS-7540",
+      "user": "zack289",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T22:50:39.233Z",
+      "host": "WS-5830",
+      "user": "frank224",
+      "process": "chrome"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-15T23:17:29.332Z",
+      "host": "WS-7676",
+      "user": "frank295",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T02:11:01.177Z",
+      "host": "WS-5030",
+      "user": "leo193",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T02:16:26.308Z",
+      "host": "WS-9116",
+      "user": "paula350",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T02:27:00.005Z",
+      "host": "WS-1314",
+      "user": "nina50",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-16T02:47:18.618Z",
+      "host": "WS-7307",
+      "user": "alice281",
+      "process": "bash"
+    },
+    {
+      "category": "Reconnaissance",
+      "timestamp": "2026-10-16T03:37:26.428Z",
+      "host": "WS-7896",
+      "user": "rachel303",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T03:49:27.484Z",
+      "host": "WS-8832",
+      "user": "rachel339",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T03:51:48.592Z",
+      "host": "WS-3375",
+      "user": "uma129",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T04:54:08.693Z",
+      "host": "WS-2634",
+      "user": "henry101",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T05:00:26.555Z",
+      "host": "WS-8172",
+      "user": "henry314",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T05:25:00.400Z",
+      "host": "WS-2849",
+      "user": "omar109",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T05:26:31.564Z",
+      "host": "WS-9240",
+      "user": "jack355",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T06:06:47.788Z",
+      "host": "WS-5235",
+      "user": "irene201",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T07:27:18.424Z",
+      "host": "WS-6420",
+      "user": "xavier246",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T07:36:04.602Z",
+      "host": "WS-5836",
+      "user": "leo224",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T07:53:11.988Z",
+      "host": "WS-4166",
+      "user": "frank160",
+      "process": "bash"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T08:05:32.730Z",
+      "host": "WS-8536",
+      "user": "henry328",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T08:08:08.252Z",
+      "host": "WS-3395",
+      "user": "omar130",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T08:11:21.560Z",
+      "host": "WS-7919",
+      "user": "omar304",
+      "process": "plugin-host"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T08:21:07.348Z",
+      "host": "WS-9433",
+      "user": "uma362",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T09:06:55.645Z",
+      "host": "WS-3118",
+      "user": "xavier119",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T09:53:35.042Z",
+      "host": "WS-1923",
+      "user": "yvonne73",
+      "process": "bash"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-16T11:28:01.033Z",
+      "host": "WS-6411",
+      "user": "omar246",
+      "process": "firefox"
+    },
+    {
+      "category": "Malware delivery",
+      "timestamp": "2026-10-16T11:41:46.853Z",
+      "host": "WS-2210",
+      "user": "zack84",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T11:50:58.154Z",
+      "host": "WS-5519",
+      "user": "grace212",
+      "process": "bash"
+    },
+    {
+      "category": "Host intrusion signs",
+      "timestamp": "2026-10-16T17:05:10.422Z",
+      "host": "LAB-05",
+      "user": "labuser0",
+      "process": "bash"
+    }
+  ]
+}
