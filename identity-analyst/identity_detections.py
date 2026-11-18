@@ -1,11 +1,11 @@
-"""Web/endpoint analyst detections for the Bearcorp threat hunt (hunts 1-12).
+"""Identity analyst detections for the Bearcorp threat hunt (hunts 1-12).
 
 Reads bearcorp.db directly (tables: auth, vpn, ldap, fw, proxy, host, users, assets)
 and writes findings.json plus findings_detail.csv. Standard library only.
 
 Usage:
-    python web_detections.py --db dataset/bearcorp.db --team 10
-    python web_detections.py --db dataset/bearcorp.db --team 10 --out findings_web.json
+    python identity_detections.py --db dataset/bearcorp.db --team 10
+    python identity_detections.py --db dataset/bearcorp.db --team 10 --out findings_identity.json
 
 Thresholds live in SETTINGS so a dashboard can import run_detections(db, settings)
 and re-run with different values.

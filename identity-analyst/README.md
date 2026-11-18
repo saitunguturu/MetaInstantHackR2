@@ -1,21 +1,21 @@
-# Web analyst (tables: auth, vpn, ldap, fw, proxy, host)
+# Identity analyst (tables: auth, vpn, ldap, fw, proxy, host)
 
 Team ID: `10`
 
 ## Files
-- `web_detections.py`: all 12 hunts. Reads `bearcorp.db` directly. Standard library only (no pandas).
+- `identity_detections.py`: all 12 hunts. Reads `bearcorp.db` directly. Standard library only (no pandas).
 - `findings.json`: 138 findings, passes `berkeley_hackathon_validate.py`.
 - `findings_detail.csv`: same findings plus the hunt number and evidence.
 
 ## Run
 ```
-python web_detections.py --db dataset/bearcorp.db --team 10 --out findings.json
+python identity_detections.py --db dataset/bearcorp.db --team 10 --out findings.json
 ```
 Takes under a minute.
 
 ## For the dashboard
 ```python
-from web_detections import run_detections, SETTINGS
+from identity_detections import run_detections, SETTINGS
 rows = run_detections("dataset/bearcorp.db", {**SETTINGS, "vpn_min_up_down_ratio": 3})
 ```
 Each row has: category, timestamp, host, user, process, hunt, evidence.
