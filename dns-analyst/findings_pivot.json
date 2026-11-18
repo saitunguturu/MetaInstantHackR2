@@ -1,0 +1,245 @@
+{
+ "team_id": "10",
+ "findings": [
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T09:24:08.186Z",
+   "host": "WS-1953",
+   "user": "carol75",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.8:443 (1 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T14:24:20.808Z",
+   "host": "WS-2204",
+   "user": "tina84",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.7:443 (1 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T05:34:07.350Z",
+   "host": "WS-5265",
+   "user": "mia202",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.6:443 (2 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T07:25:12.775Z",
+   "host": "WS-5626",
+   "user": "jack216",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.9:443 (2 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T17:53:28.536Z",
+   "host": "WS-6484",
+   "user": "jack249",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.11:443 (2 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T15:30:33.410Z",
+   "host": "WS-7030",
+   "user": "jack270",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.10:443 (2 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T02:32:17.824Z",
+   "host": "WS-7105",
+   "user": "grace273",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.12:443 (2 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:46:53.276Z",
+   "host": "WS-8355",
+   "user": "irene321",
+   "process": "sync_helper",
+   "evidence": [
+    "firewall threat-intel-block denies: 198.18.70.13:443 (2 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T20:29:25.241Z",
+   "host": "WS-5287",
+   "user": "irene203",
+   "process": "sync_helper",
+   "evidence": [
+    "raw-IP /panel C2: 198.18.30.23:443 (1 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T03:01:27.793Z",
+   "host": "WS-5567",
+   "user": "carol214",
+   "process": "sync_helper",
+   "evidence": [
+    "raw-IP /panel C2: 198.18.30.21:443 (1 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T19:01:38.792Z",
+   "host": "WS-7002",
+   "user": "henry269",
+   "process": "sync_helper",
+   "evidence": [
+    "raw-IP /panel C2: 198.18.30.24:443 (1 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T00:16:25.345Z",
+   "host": "WS-9383",
+   "user": "wendy360",
+   "process": "sync_helper",
+   "evidence": [
+    "raw-IP /panel C2: 198.18.30.22:443 (1 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T18:01:28.381Z",
+   "host": "WS-0235",
+   "user": "alice9",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (72 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T11:09:20.896Z",
+   "host": "WS-2654",
+   "user": "bob102",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (32 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T09:02:20.102Z",
+   "host": "WS-2888",
+   "user": "bob111",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (40 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T11:00:02.368Z",
+   "host": "WS-3138",
+   "user": "rachel120",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (48 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T15:02:27.525Z",
+   "host": "WS-3380",
+   "user": "zack129",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (60 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T18:06:19.586Z",
+   "host": "WS-4616",
+   "user": "nina177",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (20 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T15:07:13.278Z",
+   "host": "WS-5237",
+   "user": "karen201",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (26 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T21:01:45.105Z",
+   "host": "WS-6617",
+   "user": "mia254",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (66 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T13:01:53.920Z",
+   "host": "WS-7520",
+   "user": "frank289",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (54 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:04:12.379Z",
+   "host": "WS-8179",
+   "user": "omar314",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (39 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T20:06:01.849Z",
+   "host": "WS-9065",
+   "user": "quinn348",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (32 connections)"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T09:08:24.269Z",
+   "host": "WS-9622",
+   "user": "bob370",
+   "process": "sync_helper",
+   "evidence": [
+    "rotating check-ins docarchive-store.net: 198.18.31.13:443 (19 connections)"
+   ]
+  }
+ ]
+}
