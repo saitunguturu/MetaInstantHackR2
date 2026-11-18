@@ -21,20 +21,16 @@ rows = run_detections("dataset/bearcorp.db", {**SETTINGS, "vpn_min_up_down_ratio
 Each row has: category, timestamp, host, user, process, hunt, evidence.
 
 ## Findings by hunt
-| Hunt | What we found | Category | # |
+| Hunt | What we found | Submission Category | # |
 |---|---|---|---|
-| 1 MFA fatigue | 10-27 sso fails from one 198.18.91.x address in under 30 min, then that address gets in | Credential abuse | 10 |
-| 2 Directory dumps | LDAP wildcard sweeps (`uid=*`, `memberOf=*`, `servicePrincipalName=*`) | Reconnaissance | 8 |
-| 2 Blocked connections | Repeated `threat-intel-block` denials to 198.18.70.x (process `sync_helper`) | Command and control | 12 |
-| 3 VPN uploads | Sessions uploading > 1.5x what they download | Data theft | 8 |
-| 3 Password spraying | 198.18.77.9: 10 bursts of 13-35 users, each ending with one account getting in | Credential abuse | 10 |
-| 4 SSH as svc-/admin- | `ssh svc-...@` from workstations, and `ssh admin-...@` between 00:00-06:00 UTC | Credential abuse | 16 |
-| 5 Kerberos ticket bursts | `python3 /tmp/tgs.py --spns all`, then 8-16 service tickets within seconds | Credential abuse | 10 |
-| 5 Fake accounts | Kerberos fails for ~20 accounts each not in `users`, from 3 workstations | Reconnaissance | 3 |
-| 6 Remote access | smbclient `recurse; mget *`, wmic `process call create`, winrs/winexe as admin- or with a hash, xfreerdp + rdp sign-in as admin- without MFA | Lateral movement | 32 |
-| 6 Slow port probing | `python3 scan.py --slow`: 10 server ports over ~45 min | Reconnaissance | 5 |
-| 7 Impossible travel | VPN from 203.0.113.x then 198.18.88.x within 40-53 min | Credential abuse | 10 |
-| 7 Slow spraying | 198.18.77.11-.18: one try per user, < 2.5/hour over 0.8-4.3 days, ending in one success | Credential abuse | 8 |
+| 1. MFA fatigue | 10 users: 13-27 sso fails from one 198.18.91.x address within 30 min, then that address gets in. Time = first fail. | Credential abuse | 10 |
+| 2. Directory dumps and blocked connections | 8 hosts running LDAP wildcard sweeps (`uid=*`, `memberOf=*`, `servicePrincipalName=*`). 12 hosts denied 8 times each by `threat-intel-block` (process `sync_helper`), one finding per host at its first denial. | Reconnaissance (8), Command and control (12) | 20 |
+| 3. VPN uploads and password spraying | 8 VPN sessions uploading > 1.5x what they download. 198.18.77.9 spraying sso in 10 bursts of 13-35 users, each ending with one account getting in; time = first fail of the burst. | Data theft (8), Credential abuse (10) | 18 |
+| 4. Service accounts and admins over SSH | 10 workstation `ssh svc-...@` commands and 6 `ssh admin-...@` commands between 00:00-06:00 UTC; logged-in user, process `bash`. | Credential abuse | 16 |
+| 5. Kerberos ticket bursts and fake accounts | 10 users requesting 8-16 service tickets within seconds of `python3 /tmp/tgs.py --spns all`. 3 workstations failing Kerberos for ~20 accounts each that are not in `users`. Process `kerberos`. | Credential abuse (10), Reconnaissance (3) | 13 |
+| 6. Remote access to new servers | 32 CMD rows: smbclient `recurse; mget *` (10), wmic `process call create` (6), winrs as admin- (5), winexe with a password hash (1), xfreerdp with an admin- rdp sign-in without MFA (10). 5 workstations slowly probing 10 server ports over ~45 min (`python3 scan.py --slow`). | Lateral movement (32), Reconnaissance (5) | 37 |
+| 7. Impossible travel and slow spraying | 10 users on VPN from 203.0.113.x then 198.18.88.x within 40-53 min; time = first login. 8 outside addresses (198.18.77.11-.18) trying one sso login per user, < 2.5/hour over 0.8-4.3 days, before one works; time = first attempt. | Credential abuse (18) | 18 |
+| **Total** | | | **132** |
 
 ## How fields are chosen
 - User = last LOGIN on that host at or before the event (same rule as dns-analyst).
