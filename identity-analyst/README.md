@@ -1,10 +1,10 @@
-# Identity analyst (tables: auth, vpn, ldap, fw, proxy, host)
+# Identity analyst (tables: auth, vpn, ldap, fw, host)
 
 Team ID: `10`
 
 ## Files
-- `identity_detections.py`: all 12 hunts. Reads `bearcorp.db` directly. Standard library only (no pandas).
-- `findings.json`: 138 findings, passes `berkeley_hackathon_validate.py`.
+- `identity_detections.py`: all 7 identity hunts from the brief. Reads `bearcorp.db` directly. Standard library only (no pandas).
+- `findings.json`: 132 findings, passes `berkeley_hackathon_validate.py`.
 - `findings_detail.csv`: same findings plus the hunt number and evidence.
 
 ## Run
@@ -21,25 +21,26 @@ rows = run_detections("dataset/bearcorp.db", {**SETTINGS, "vpn_min_up_down_ratio
 Each row has: category, timestamp, host, user, process, hunt, evidence.
 
 ## Findings by hunt
-| Hunt | Category | # |
-|---|---|---|
-| 1 SSO brute force (one outside IP vs one user, then success) | Credential abuse | 10 |
-| 2 SSO spray bursts from 198.18.77.9, each ending in a success | Credential abuse | 10 |
-| 3 ssh as `svc-` account, or as `admin-` at night | Credential abuse | 16 |
-| 4 Kerberoasting (`/tmp/tgs.py`, then many service tickets) | Credential abuse | 10 |
-| 5 Kerberos failures for accounts not in `users` | Reconnaissance | 3 |
-| 6 LDAP wildcard sweeps (`uid=*`, `memberOf=*`, ...) | Reconnaissance | 8 |
-| 7 Server port probing (`python3 scan.py --slow`, `masscan`) | Reconnaissance | 8 |
-| 8 Repeated `threat-intel-block` denials | Command and control | 12 |
-| 9 Python reverse shell to 198.18.9.13:4444 | Command and control | 1 |
-| 10 VPN sessions uploading > 1.5x what they download | Data theft | 8 |
-| 11 smbclient share copy, wmic hidden process, winrs/winexe as admin or with a hash, xfreerdp as admin without MFA, ssh `StrictHostKeyChecking=no` as admin | Lateral movement | 36 |
-| 12 Payloads from untrusted sites, loader + stage2, fake `updates.nexusos-patch.com` | Malware delivery | 16 |
+| Hunt | What we found | Category | # |
+|---|---|---|---|
+| 1 MFA fatigue | 10-27 sso fails from one 198.18.91.x address in under 30 min, then that address gets in | Credential abuse | 10 |
+| 2 Directory dumps | LDAP wildcard sweeps (`uid=*`, `memberOf=*`, `servicePrincipalName=*`) | Reconnaissance | 8 |
+| 2 Blocked connections | Repeated `threat-intel-block` denials to 198.18.70.x (process `sync_helper`) | Command and control | 12 |
+| 3 VPN uploads | Sessions uploading > 1.5x what they download | Data theft | 8 |
+| 3 Password spraying | 198.18.77.9: 10 bursts of 13-35 users, each ending with one account getting in | Credential abuse | 10 |
+| 4 SSH as svc-/admin- | `ssh svc-...@` from workstations, and `ssh admin-...@` between 00:00-06:00 UTC | Credential abuse | 16 |
+| 5 Kerberos ticket bursts | `python3 /tmp/tgs.py --spns all`, then 8-16 service tickets within seconds | Credential abuse | 10 |
+| 5 Fake accounts | Kerberos fails for ~20 accounts each not in `users`, from 3 workstations | Reconnaissance | 3 |
+| 6 Remote access | smbclient `recurse; mget *`, wmic `process call create`, winrs/winexe as admin- or with a hash, xfreerdp + rdp sign-in as admin- without MFA | Lateral movement | 32 |
+| 6 Slow port probing | `python3 scan.py --slow`: 10 server ports over ~45 min | Reconnaissance | 5 |
+| 7 Impossible travel | VPN from 203.0.113.x then 198.18.88.x within 40-53 min | Credential abuse | 10 |
+| 7 Slow spraying | 198.18.77.11-.18: one try per user, < 2.5/hour over 0.8-4.3 days, ending in one success | Credential abuse | 8 |
+
+## How fields are chosen
+- User = last LOGIN on that host at or before the event (same rule as dns-analyst).
+- For outside-in events (sso, vpn) there is no workstation involved, so host = the victim's assigned workstation and user = the victim.
+- Timestamps follow the brief: hunt 1 and both spray hunts use the first failed login; impossible travel uses the first VPN login; firewall uses each host's first denial; Kerberoasting uses the first ticket request (about 5 s after the python3 command); LDAP and probing use the first event per host.
 
 ## Notes for teammates
-- User = last LOGIN on that host at or before the event (same rule as dns-analyst). For outside-in events (SSO, VPN) with no workstation involved, host = the victim's assigned workstation and user = the victim.
-- Timestamps: SSO hunts use the first failed login of the burst; Kerberoasting uses the first ticket request (about 5s after the `tgs.py` command); LDAP, probing, firewall and malware hunts use the first event per host.
-- Overlap with dns-analyst: hunt 8 reports WS-9650, WS-1438, WS-7525, WS-5182 under Command and control, which dns-analyst also has. Keep one copy when merging if the scorer counts duplicates.
-- Less certain, trim first if we are over a cap: hunt 11's 4 `ssh -o StrictHostKeyChecking=no` rows (ssh was not in the brief for lateral movement), hunt 7's 3 `masscan` rows (fast, not slow), hunt 9 (could be Host intrusion signs instead), hunt 10's frank116 (only 1.7x).
-- Left out on purpose: 174 `tool-setup.exe` downloads from `staging-downloads.nexusos.com` (the real vendor's site, one per host, looks like a normal rollout).
-- Not yet covered (leads from dns-analyst): Data theft over the web (`backup-agent` to `offsite-vault.net` etc.) and C2 from `miner_worker` / `invoice_viewer`.
+- Left out on purpose: 6 users with 10+ sso fails from a home address (203.0.113.x) that never got in; their later "success" is a normal workstation login hours later. Also `masscan` scans (fast, not slow), daytime `ssh -o StrictHostKeyChecking=no admin-...` (not in the brief's lateral movement list), and the python reverse shell on WS-9116 and malware downloads (endpoint/web, not identity).
+- Weakest rows if we need to trim: slow spray from 198.18.77.15 (0.8 days, just under "one to four"), VPN upload for frank116 (1.7x vs 4-17x for the rest), LDAP sweep on WS-0283 (16 wildcards vs 22-33).
