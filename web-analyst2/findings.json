@@ -1,0 +1,306 @@
+{
+  "team_id": "10",
+  "findings": [
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-13T05:48:54.155Z",
+      "host": "WS-6124",
+      "user": "nina235",
+      "process": "firefox"
+    },
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-13T07:11:59.931Z",
+      "host": "WS-9464",
+      "user": "zack363",
+      "process": "firefox"
+    },
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-13T22:51:58.877Z",
+      "host": "WS-1731",
+      "user": "omar66",
+      "process": "firefox"
+    },
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-14T06:59:07.319Z",
+      "host": "WS-9546",
+      "user": "dave367",
+      "process": "firefox"
+    },
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-14T10:29:19.828Z",
+      "host": "WS-3687",
+      "user": "uma141",
+      "process": "firefox"
+    },
+    {
+      "category": "Known-bad indicators",
+      "timestamp": "2026-10-16T05:08:12.568Z",
+      "host": "WS-7942",
+      "user": "leo305",
+      "process": "firefox"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-12T15:08:04.344Z",
+      "host": "WS-6967",
+      "user": "yvonne267",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T11:03:40.612Z",
+      "host": "WS-1483",
+      "user": "alice57",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T15:08:27.248Z",
+      "host": "WS-7726",
+      "user": "dave297",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T15:08:51.237Z",
+      "host": "WS-4720",
+      "user": "nina181",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T15:10:18.322Z",
+      "host": "WS-7982",
+      "user": "zack306",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T15:12:54.310Z",
+      "host": "WS-8149",
+      "user": "karen313",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T15:19:11.452Z",
+      "host": "WS-2626",
+      "user": "zack100",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T15:21:20.811Z",
+      "host": "WS-2626",
+      "user": "zack100",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-13T23:56:29.143Z",
+      "host": "WS-0998",
+      "user": "jack38",
+      "process": "chromium"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T00:00:03.757Z",
+      "host": "WS-0998",
+      "user": "jack38",
+      "process": "chromium"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T12:03:25.518Z",
+      "host": "WS-4025",
+      "user": "uma154",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T13:36:08.198Z",
+      "host": "WS-0218",
+      "user": "jack8",
+      "process": "firefox"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T13:40:21.561Z",
+      "host": "WS-0218",
+      "user": "jack8",
+      "process": "firefox"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T14:30:59.430Z",
+      "host": "LAB-01",
+      "user": "labuser7",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T14:40:00.834Z",
+      "host": "LAB-01",
+      "user": "labuser7",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T17:55:44.492Z",
+      "host": "WS-2687",
+      "user": "irene103",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T18:00:35.082Z",
+      "host": "WS-2687",
+      "user": "irene103",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-14T22:23:44.760Z",
+      "host": "WS-5947",
+      "user": "sam228",
+      "process": "firefox"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T04:47:17.079Z",
+      "host": "WS-1829",
+      "user": "irene70",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T05:00:35.525Z",
+      "host": "WS-1829",
+      "user": "irene70",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:02:05.471Z",
+      "host": "WS-1213",
+      "user": "quinn46",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:07:23.962Z",
+      "host": "WS-8093",
+      "user": "grace311",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:07:32.787Z",
+      "host": "WS-0847",
+      "user": "omar32",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:08:25.655Z",
+      "host": "WS-8834",
+      "user": "tina339",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:09:31.045Z",
+      "host": "WS-6120",
+      "user": "jack235",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:09:34.753Z",
+      "host": "WS-8988",
+      "user": "rachel345",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:11:12.829Z",
+      "host": "WS-6969",
+      "user": "alice268",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:22:38.318Z",
+      "host": "WS-9213",
+      "user": "irene354",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T10:40:38.232Z",
+      "host": "WS-9213",
+      "user": "irene354",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T11:00:39.509Z",
+      "host": "WS-9213",
+      "user": "irene354",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T13:01:23.921Z",
+      "host": "WS-3414",
+      "user": "henry131",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T14:08:00.820Z",
+      "host": "LAB-04",
+      "user": "labuser4",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T14:20:37.111Z",
+      "host": "LAB-04",
+      "user": "labuser4",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T20:32:38.522Z",
+      "host": "WS-1339",
+      "user": "mia51",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-15T20:40:29.855Z",
+      "host": "WS-1339",
+      "user": "mia51",
+      "process": "chrome"
+    },
+    {
+      "category": "Data theft",
+      "timestamp": "2026-10-16T14:06:01.703Z",
+      "host": "WS-9533",
+      "user": "quinn366",
+      "process": "backup-agent"
+    },
+    {
+      "category": "Command and control",
+      "timestamp": "2026-10-13T03:01:27.793Z",
+      "host": "WS-5567",
+      "user": "carol214",
+      "process": "sync_helper"
+    }
+  ]
+}
